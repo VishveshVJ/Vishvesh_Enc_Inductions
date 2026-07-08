@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2/ament_cmake_environment_hooks/local_setup.sh

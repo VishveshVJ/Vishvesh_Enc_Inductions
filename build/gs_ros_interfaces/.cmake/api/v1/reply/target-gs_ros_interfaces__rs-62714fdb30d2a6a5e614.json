@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/vishvesh/ros2_ws/build/gs_ros_interfaces/gs_ros_interfaces__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "gs_ros_interfaces__rs::@81ec7f0a87b107174d2c",
+	"name" : "gs_ros_interfaces__rs",
+	"paths" : 
+	{
+		"build" : "gs_ros_interfaces__rs",
+		"source" : "/home/vishvesh/ros2_ws/build/gs_ros_interfaces/gs_ros_interfaces__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/vishvesh/ros2_ws/build/gs_ros_interfaces/gs_ros_interfaces__rs/CMakeFiles/gs_ros_interfaces__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vishvesh/ros2_ws/build/gs_ros_interfaces/gs_ros_interfaces__rs/CMakeFiles/gs_ros_interfaces__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_rs/gs_ros_interfaces/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

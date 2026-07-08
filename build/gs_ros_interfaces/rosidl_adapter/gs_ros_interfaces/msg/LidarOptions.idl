@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gs_ros_interfaces/msg/LidarOptions.msg
+// generated code does not contain a copyright notice
+
+#include "gs_ros_interfaces/msg/DepthCameraRayCasterPattern.idl"
+#include "gs_ros_interfaces/msg/GeneralSensorOptions.idl"
+#include "gs_ros_interfaces/msg/GridRayCasterPattern.idl"
+#include "gs_ros_interfaces/msg/RigidSensorOptions.idl"
+#include "gs_ros_interfaces/msg/RosSensorOptions.idl"
+#include "gs_ros_interfaces/msg/SphericalRayCasterPattern.idl"
+
+module gs_ros_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Configuration for Lidar sensors (spherical, grid, sectional)")
+    struct LidarOptions {
+      gs_ros_interfaces::msg::GeneralSensorOptions options;
+
+      gs_ros_interfaces::msg::RosSensorOptions ros_options;
+
+      gs_ros_interfaces::msg::RigidSensorOptions rigid_options;
+
+      gs_ros_interfaces::msg::GridRayCasterPattern grid_pattern_options;
+
+      gs_ros_interfaces::msg::SphericalRayCasterPattern spherical_pattern_options;
+
+      gs_ros_interfaces::msg::DepthCameraRayCasterPattern depth_camera_pattern_options;
+
+      float min_range;
+
+      float max_range;
+
+      float no_hit_value;
+
+      boolean return_points_in_world_frame;
+
+      float draw_point_radius;
+
+      sequence<float> ray_start_color;
+
+      sequence<float> ray_hit_color;
+
+      boolean add_noise;
+
+      float noise_mean;
+
+      float noise_std;
+    };
+  };
+};

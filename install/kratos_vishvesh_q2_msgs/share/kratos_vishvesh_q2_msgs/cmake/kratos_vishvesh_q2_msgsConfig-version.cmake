@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/ament_cmake_core/kratos_vishvesh_q2_msgsConfig-version.cmake

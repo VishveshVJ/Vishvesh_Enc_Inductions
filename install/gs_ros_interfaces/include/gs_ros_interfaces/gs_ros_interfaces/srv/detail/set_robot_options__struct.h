@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_c/gs_ros_interfaces/srv/detail/set_robot_options__struct.h

@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gs_ros_interfaces/msg/ImuOptions.msg
+// generated code does not contain a copyright notice
+
+#include "gs_ros_interfaces/msg/GeneralSensorOptions.idl"
+#include "gs_ros_interfaces/msg/NoisySensorOptions.idl"
+#include "gs_ros_interfaces/msg/RigidSensorOptions.idl"
+#include "gs_ros_interfaces/msg/RosSensorOptions.idl"
+
+module gs_ros_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Configuration for an IMU sensor")
+    struct ImuOptions {
+      gs_ros_interfaces::msg::GeneralSensorOptions options;
+
+      gs_ros_interfaces::msg::RosSensorOptions ros_options;
+
+      gs_ros_interfaces::msg::RigidSensorOptions rigid_options;
+
+      gs_ros_interfaces::msg::NoisySensorOptions noisy_options;
+
+      @verbatim (language="comment", text=
+        "Accelerometer parameters")
+      float acc_resolution;
+
+      sequence<float> acc_cross_axis_coupling;
+
+      sequence<float> acc_bias;
+
+      sequence<float> acc_noise;
+
+      sequence<float> acc_random_walk;
+
+      @verbatim (language="comment", text=
+        "Gyroscope parameters")
+      float gyro_resolution;
+
+      sequence<float> gyro_cross_axis_coupling;
+
+      sequence<float> gyro_bias;
+
+      sequence<float> gyro_noise;
+
+      sequence<float> gyro_random_walk;
+
+      @verbatim (language="comment", text=
+        "Debug visualization")
+      sequence<float> debug_acc_color;
+
+      float debug_acc_scale;
+
+      sequence<float> debug_gyro_color;
+
+      float debug_gyro_scale;
+    };
+  };
+};

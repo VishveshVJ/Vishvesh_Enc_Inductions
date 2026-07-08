@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/EntityCategory.msg
+// generated code does not contain a copyright notice
+
+
+module simulation_interfaces {
+  module msg {
+    module EntityCategory_Constants {
+      @verbatim (language="comment", text=
+        "Generic or unspecified type.")
+      const uint8 CATEGORY_OBJECT = 0;
+      @verbatim (language="comment", text=
+        "A broad category for mobile robots, arms, drones etc.," "\n"        "usually with ROS 2 interfaces.")
+      const uint8 CATEGORY_ROBOT = 1;
+      @verbatim (language="comment", text=
+        "Simulated humans, e.g. pedestrians, warehouse workers." "\n"        "Compared to CATEGORY_DYNAMIC_OBJECT, humans are often expected to be treated" "\n"        "exceptionally in regards to safety constraints.")
+      const uint8 CATEGORY_HUMAN = 2;
+      @verbatim (language="comment", text=
+        "Vehicles, animals, mobile obstacles, typically to present a detection and" "\n"        "tracking challenge, such as when simulation is used to test robot perception" "\n"        "or navigation stack.")
+      const uint8 CATEGORY_DYNAMIC_OBJECT = 4;
+      @verbatim (language="comment", text=
+        "Any object which is static, e.g. not supposed to change its pose" "\n"        "unless by means of SetEntityState.")
+      const uint8 CATEGORY_STATIC_OBJECT = 5;
+    };
+    @verbatim (language="comment", text=
+      "Entity major category, which often warrants a specific way to handle such entity, e.g. when handling humans" "\n"
+      "or mapping persistence for dynamic vs static objects.")
+    struct EntityCategory {
+      uint8 category;
+    };
+  };
+};

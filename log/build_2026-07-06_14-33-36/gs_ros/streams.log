@@ -1,0 +1,86 @@
+[0.805s] Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros': PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vishvesh/ros2_ws/build/gs_ros/build
+[0.907s] /home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.907s]   warnings.warn(msg)
+[0.991s] running develop
+[1.092s] Removing /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs-ros.egg-link (link to .)
+[1.118s] Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros' returned '0': PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vishvesh/ros2_ws/build/gs_ros/build
+[1.119s] Invoking command in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros': PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/gs_ros build --build-base /home/vishvesh/ros2_ws/build/gs_ros/build install --record /home/vishvesh/ros2_ws/build/gs_ros/install.log --single-version-externally-managed install_data --force
+[1.218s] /home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.218s]   warnings.warn(msg)
+[1.267s] running egg_info
+[1.275s] writing ../../../build/gs_ros/gs_ros.egg-info/PKG-INFO
+[1.276s] writing dependency_links to ../../../build/gs_ros/gs_ros.egg-info/dependency_links.txt
+[1.276s] writing requirements to ../../../build/gs_ros/gs_ros.egg-info/requires.txt
+[1.276s] writing top-level names to ../../../build/gs_ros/gs_ros.egg-info/top_level.txt
+[1.293s] reading manifest file '../../../build/gs_ros/gs_ros.egg-info/SOURCES.txt'
+[1.294s] writing manifest file '../../../build/gs_ros/gs_ros.egg-info/SOURCES.txt'
+[1.294s] running build
+[1.294s] running build_py
+[1.294s] creating /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.294s] copying gs_ros/gs_ros_services.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.295s] copying gs_ros/gs_ros_sensors.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.295s] copying gs_ros/gs_ros_robot_control.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.295s] copying gs_ros/gs_ros_sim.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.295s] copying gs_ros/__init__.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.296s] copying gs_ros/gs_ros_bridge.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.296s] copying gs_ros/gs_ros_utils.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros
+[1.296s] creating /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.296s] copying gs_ros/sensors/grid_lidar_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.296s] copying gs_ros/sensors/camera_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.296s] copying gs_ros/sensors/lidar_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/imu_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/sectional_lidar_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/base_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/laser_scan_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/contact_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/__init__.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/sensor_helper.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.297s] copying gs_ros/sensors/contact_force_sensor.py -> /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors
+[1.298s] running install
+[1.300s] running install_lib
+[1.309s] creating /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.309s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/gs_ros_services.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.309s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/gs_ros_sensors.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/gs_ros_robot_control.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/gs_ros_sim.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.310s] creating /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/grid_lidar_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/camera_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/lidar_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/imu_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/sectional_lidar_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.310s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/base_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/laser_scan_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/contact_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/__init__.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/sensor_helper.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/sensors/contact_force_sensor.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/__init__.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/gs_ros_bridge.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.311s] copying /home/vishvesh/ros2_ws/build/gs_ros/build/lib/gs_ros/gs_ros_utils.py -> /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros
+[1.311s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_services.py to gs_ros_services.cpython-310.pyc
+[1.313s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_sensors.py to gs_ros_sensors.cpython-310.pyc
+[1.313s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_robot_control.py to gs_ros_robot_control.cpython-310.pyc
+[1.314s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_sim.py to gs_ros_sim.cpython-310.pyc
+[1.315s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/grid_lidar_sensor.py to grid_lidar_sensor.cpython-310.pyc
+[1.316s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/camera_sensor.py to camera_sensor.cpython-310.pyc
+[1.316s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/lidar_sensor.py to lidar_sensor.cpython-310.pyc
+[1.317s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/imu_sensor.py to imu_sensor.cpython-310.pyc
+[1.317s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/sectional_lidar_sensor.py to sectional_lidar_sensor.cpython-310.pyc
+[1.318s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/base_sensor.py to base_sensor.cpython-310.pyc
+[1.318s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/laser_scan_sensor.py to laser_scan_sensor.cpython-310.pyc
+[1.319s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/contact_sensor.py to contact_sensor.cpython-310.pyc
+[1.319s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/__init__.py to __init__.cpython-310.pyc
+[1.319s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/sensor_helper.py to sensor_helper.cpython-310.pyc
+[1.320s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/contact_force_sensor.py to contact_force_sensor.cpython-310.pyc
+[1.320s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/__init__.py to __init__.cpython-310.pyc
+[1.320s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_bridge.py to gs_ros_bridge.cpython-310.pyc
+[1.321s] byte-compiling /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_utils.py to gs_ros_utils.cpython-310.pyc
+[1.324s] running install_data
+[1.324s] copying resource/gs_ros -> /home/vishvesh/ros2_ws/install/gs_ros/share/ament_index/resource_index/packages
+[1.324s] copying package.xml -> /home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros
+[1.324s] running install_egg_info
+[1.333s] Copying ../../../build/gs_ros/gs_ros.egg-info to /home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages/gs_ros-0.0.0-py3.10.egg-info
+[1.334s] running install_scripts
+[1.400s] writing list of installed files to '/home/vishvesh/ros2_ws/build/gs_ros/install.log'
+[1.421s] Invoked command in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros' returned '0': PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/gs_ros build --build-base /home/vishvesh/ros2_ws/build/gs_ros/build install --record /home/vishvesh/ros2_ws/build/gs_ros/install.log --single-version-externally-managed install_data --force

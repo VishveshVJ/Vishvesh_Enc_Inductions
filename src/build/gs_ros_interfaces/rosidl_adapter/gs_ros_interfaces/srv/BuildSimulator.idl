@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gs_ros_interfaces/srv/BuildSimulator.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/Result.idl"
+
+module gs_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Build the Genesis scene (locks entity additions)")
+    struct BuildSimulator_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct BuildSimulator_Response {
+      simulation_interfaces::msg::Result result;
+    };
+  };
+};

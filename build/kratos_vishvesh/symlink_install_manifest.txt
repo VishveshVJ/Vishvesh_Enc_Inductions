@@ -1,0 +1,17 @@
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/kratos_vishvesh/rover_status_msg_publisher.py
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/kratos_vishvesh/rover_status_msg_subscriber.py
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/ament_index/resource_index/package_run_dependencies/kratos_vishvesh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/ament_index/resource_index/parent_prefix_path/kratos_vishvesh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/ament_prefix_path.sh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/ament_prefix_path.dsv
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/path.sh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/path.dsv
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.bash
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.sh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.zsh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.dsv
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.dsv
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/ament_index/resource_index/packages/kratos_vishvesh
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/cmake/kratos_vishveshConfig.cmake
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/cmake/kratos_vishveshConfig-version.cmake
+/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.xml

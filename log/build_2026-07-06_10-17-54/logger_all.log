@@ -1,0 +1,841 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78c93d61f2b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78c93d5dc0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78c93d5dc0a0>>)
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.100s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vishvesh/ros2_ws'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/Practice) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Practice' with type 'ros.ament_python' and name 'Practice'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'ros'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['cmake', 'python']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'cmake'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'python'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extensions ['python_setup_py']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros) by extension 'python_setup_py'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'ros'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['cmake', 'python']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'cmake'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'python'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extensions ['python_setup_py']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/configs) by extension 'python_setup_py'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_ros' with type 'ros.ament_python' and name 'gs_ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros2_control_demos) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_ros2_control_demos' with type 'ros.ament_cmake' and name 'gs_ros2_control_demos'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_ros_interfaces) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_ros_interfaces' with type 'ros.ament_cmake' and name 'gs_ros_interfaces'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/gs_simulation_interfaces) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/gs_simulation_interfaces' with type 'ros.ament_python' and name 'gs_simulation_interfaces'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/simulation_interfaces) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/simulation_interfaces' with type 'ros.ament_cmake' and name 'simulation_interfaces'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/genesis_ros/topic_based_ros2_control) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/genesis_ros/topic_based_ros2_control' with type 'ros.ament_cmake' and name 'topic_based_ros2_control'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kratos_vishvesh' with type 'ros.ament_cmake' and name 'kratos_vishvesh'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kratos_vishvesh_q2' with type 'ros.ament_cmake' and name 'kratos_vishvesh_q2'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/kratos_vishvesh_q2_msgs) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kratos_vishvesh_q2_msgs' with type 'ros.ament_cmake' and name 'kratos_vishvesh_q2_msgs'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_controller) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_controller' with type 'ros.ament_python' and name 'turtle_controller'
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/turtle_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/topic_based_ros2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/gs_ros_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/simulation_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/kratos_vishvesh' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/gs_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/vishvesh/ros2_ws/install/Practice' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vishvesh/ros2_ws/install/topic_based_ros2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vishvesh/ros2_ws/install/gs_ros_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.141s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.142s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.142s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vishvesh/ros2_ws/install/kratos_vishvesh' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.142s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/vishvesh/ros2_ws/install
+[0.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'cmake_target' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'cmake_clean_cache' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'Practice' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'Practice' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/Practice', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/Practice', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/Practice', 'symlink_install': True, 'test_result_base': None}
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_target' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'gs_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'gs_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/gs_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/gs_ros', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros', 'symlink_install': True, 'test_result_base': None}
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'gs_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'gs_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'kratos_vishvesh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/kratos_vishvesh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/kratos_vishvesh', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/kratos_vishvesh', 'symlink_install': True, 'test_result_base': None}
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'kratos_vishvesh_q2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'simulation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/simulation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/simulation_interfaces', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/genesis_ros/simulation_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'topic_based_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'topic_based_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/topic_based_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/topic_based_ros2_control', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/genesis_ros/topic_based_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/turtle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/turtle_controller', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/turtle_controller', 'symlink_install': True, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'gs_ros_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'gs_ros_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/gs_ros_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/gs_ros_interfaces', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'kratos_vishvesh_q2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'kratos_vishvesh_q2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2', 'symlink_install': True, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'gs_simulation_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'gs_simulation_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vishvesh/ros2_ws/build/gs_simulation_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces', 'merge_install': False, 'path': '/home/vishvesh/ros2_ws/src/genesis_ros/gs_simulation_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.176s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/genesis_ros/simulation_interfaces' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/genesis_ros/simulation_interfaces'
+[0.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs' with build type 'ament_cmake'
+[0.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs'
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vishvesh/ros2_ws/src/Practice' with build type 'ament_python'
+[0.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('Practice', 'ament_prefix_path')
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/Practice/share/Practice/hook/ament_prefix_path.ps1'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/Practice/share/Practice/hook/ament_prefix_path.dsv'
+[0.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/Practice/share/Practice/hook/ament_prefix_path.sh'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros' with build type 'ament_python'
+[0.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros', 'ament_prefix_path')
+[0.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/hook/ament_prefix_path.ps1'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/hook/ament_prefix_path.dsv'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/hook/ament_prefix_path.sh'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.193s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos' with build type 'ament_cmake'
+[0.193s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/kratos_vishvesh' with build type 'ament_cmake'
+[0.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/kratos_vishvesh'
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/genesis_ros/topic_based_ros2_control' with build type 'ament_cmake'
+[0.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/genesis_ros/topic_based_ros2_control'
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vishvesh/ros2_ws/src/turtle_controller' with build type 'ament_python'
+[0.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'ament_prefix_path')
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.ps1'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.dsv'
+[0.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/hook/ament_prefix_path.sh'
+[0.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/simulation_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/simulation_interfaces
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs
+[0.345s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vishvesh/ros2_ws/src/Practice'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/gs_ros2_control_demos
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/kratos_vishvesh -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/kratos_vishvesh
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/topic_based_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/topic_based_ros2_control
+[0.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vishvesh/ros2_ws/src/turtle_controller'
+[0.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/turtle_controller': PYTHONPATH=/home/vishvesh/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/turtle_controller/build --no-deps symlink_data
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/Practice': PYTHONPATH=/home/vishvesh/ros2_ws/build/Practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/Practice/build --no-deps symlink_data
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros': PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/gs_ros/build --no-deps symlink_data
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/kratos_vishvesh -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/kratos_vishvesh
+[1.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh -- -j16 -l16
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh -- -j16 -l16
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh
+[1.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('Practice', 'pythonpath_develop')
+[1.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/Practice/share/Practice/hook/pythonpath_develop.ps1'
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/Practice' returned '0': PYTHONPATH=/home/vishvesh/ros2_ws/build/Practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/Practice/build --no-deps symlink_data
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/build/Practice/share/Practice/hook/pythonpath_develop.dsv'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/Practice/share/Practice/hook/pythonpath_develop.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice' for CMake module files
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice' for CMake config files
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice/lib'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice/bin'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice/lib/pkgconfig/Practice.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages'
+[1.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('Practice', 'pythonpath')
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/Practice/share/Practice/hook/pythonpath.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/Practice/share/Practice/hook/pythonpath.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/Practice/share/Practice/hook/pythonpath.sh'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/Practice/bin'
+[1.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Practice)
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/Practice/share/Practice/package.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/Practice/share/Practice/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/Practice/share/Practice/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/Practice/share/Practice/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/Practice/share/Practice/package.zsh'
+[1.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/Practice/share/colcon-core/packages/Practice)
+[1.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kratos_vishvesh)
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh' for CMake module files
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh' for CMake config files
+[1.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh', 'cmake_prefix_path')
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/hook/cmake_prefix_path.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/hook/cmake_prefix_path.dsv'
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/hook/cmake_prefix_path.sh'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/bin'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/pkgconfig/kratos_vishvesh.pc'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/python3.10/site-packages'
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/bin'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.ps1'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.sh'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.bash'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.zsh'
+[1.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/colcon-core/packages/kratos_vishvesh)
+[1.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kratos_vishvesh)
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh' for CMake module files
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh' for CMake config files
+[1.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh', 'cmake_prefix_path')
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/hook/cmake_prefix_path.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/hook/cmake_prefix_path.dsv'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/hook/cmake_prefix_path.sh'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/bin'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/pkgconfig/kratos_vishvesh.pc'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/python3.10/site-packages'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh/bin'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.ps1'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.dsv'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.sh'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.bash'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.zsh'
+[1.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/kratos_vishvesh/share/colcon-core/packages/kratos_vishvesh)
+[1.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'pythonpath_develop')
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/turtle_controller/share/turtle_controller/hook/pythonpath_develop.ps1'
+[1.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/turtle_controller' returned '0': PYTHONPATH=/home/vishvesh/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/turtle_controller/build --no-deps symlink_data
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/build/turtle_controller/share/turtle_controller/hook/pythonpath_develop.dsv'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/turtle_controller/share/turtle_controller/hook/pythonpath_develop.sh'
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller' for CMake module files
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller' for CMake config files
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller/lib'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller/lib/pkgconfig/turtle_controller.pc'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller/lib/python3.10/site-packages'
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller', 'pythonpath')
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/hook/pythonpath.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/turtle_controller/bin'
+[1.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller)
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/turtle_controller/share/turtle_controller/package.zsh'
+[1.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/turtle_controller/share/colcon-core/packages/turtle_controller)
+[1.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros', 'pythonpath_develop')
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/gs_ros/share/gs_ros/hook/pythonpath_develop.ps1'
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros' returned '0': PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/gs_ros/build --no-deps symlink_data
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/build/gs_ros/share/gs_ros/hook/pythonpath_develop.dsv'
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/gs_ros/share/gs_ros/hook/pythonpath_develop.sh'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros' for CMake module files
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros' for CMake config files
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros/lib'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros/bin'
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros/lib/pkgconfig/gs_ros.pc'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros/lib/python3.10/site-packages'
+[1.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros', 'pythonpath')
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/hook/pythonpath.ps1'
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/hook/pythonpath.dsv'
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/hook/pythonpath.sh'
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros/bin'
+[1.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros)
+[1.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/package.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/package.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/package.sh'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/package.bash'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros/share/gs_ros/package.zsh'
+[1.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/gs_ros/share/colcon-core/packages/gs_ros)
+[1.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/gs_ros2_control_demos
+[1.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/gs_ros2_control_demos -- -j16 -l16
+[1.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs
+[1.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs -- -j16 -l16
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/topic_based_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/topic_based_ros2_control
+[2.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/topic_based_ros2_control -- -j16 -l16
+[3.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/simulation_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/simulation_interfaces
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/simulation_interfaces -- -j16 -l16
+[4.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs -- -j16 -l16
+[4.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs
+[5.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kratos_vishvesh_q2_msgs)
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs' for CMake module files
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs' for CMake config files
+[5.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh_q2_msgs', 'cmake_prefix_path')
+[5.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/cmake_prefix_path.ps1'
+[5.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs
+[5.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/cmake_prefix_path.dsv'
+[5.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/cmake_prefix_path.sh'
+[5.751s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib'
+[5.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh_q2_msgs', 'ld_library_path_lib')
+[5.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/ld_library_path_lib.ps1'
+[5.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/ld_library_path_lib.dsv'
+[5.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/ld_library_path_lib.sh'
+[5.753s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/bin'
+[5.754s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib/pkgconfig/kratos_vishvesh_q2_msgs.pc'
+[5.754s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib/python3.10/site-packages'
+[5.755s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/bin'
+[5.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.ps1'
+[5.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.dsv'
+[5.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.sh'
+[5.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.bash'
+[5.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.zsh'
+[5.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/colcon-core/packages/kratos_vishvesh_q2_msgs)
+[5.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kratos_vishvesh_q2_msgs)
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs' for CMake module files
+[5.762s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs' for CMake config files
+[5.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh_q2_msgs', 'cmake_prefix_path')
+[5.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/cmake_prefix_path.ps1'
+[5.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/cmake_prefix_path.dsv'
+[5.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/cmake_prefix_path.sh'
+[5.766s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib'
+[5.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh_q2_msgs', 'ld_library_path_lib')
+[5.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/ld_library_path_lib.ps1'
+[5.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/ld_library_path_lib.dsv'
+[5.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/hook/ld_library_path_lib.sh'
+[5.769s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/bin'
+[5.769s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib/pkgconfig/kratos_vishvesh_q2_msgs.pc'
+[5.770s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib/python3.10/site-packages'
+[5.770s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/bin'
+[5.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.ps1'
+[5.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.dsv'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.sh'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.bash'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/kratos_vishvesh_q2_msgs/package.zsh'
+[5.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/share/colcon-core/packages/kratos_vishvesh_q2_msgs)
+[5.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2' with build type 'ament_cmake'
+[5.777s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2'
+[5.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/vishvesh/ros2_ws/src/kratos_vishvesh_q2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2
+[7.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/vishvesh/ros2_ws/src/kratos_vishvesh_q2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2
+[7.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2 -- -j16 -l16
+[7.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2 -- -j16 -l16
+[7.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2
+[7.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kratos_vishvesh_q2)
+[7.365s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2' for CMake module files
+[7.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh_q2
+[7.366s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2' for CMake config files
+[7.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh_q2', 'cmake_prefix_path')
+[7.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/hook/cmake_prefix_path.ps1'
+[7.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/hook/cmake_prefix_path.dsv'
+[7.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/hook/cmake_prefix_path.sh'
+[7.368s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/lib'
+[7.368s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/bin'
+[7.368s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/lib/pkgconfig/kratos_vishvesh_q2.pc'
+[7.369s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/lib/python3.10/site-packages'
+[7.370s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/bin'
+[7.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.ps1'
+[7.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.dsv'
+[7.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.sh'
+[7.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.bash'
+[7.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.zsh'
+[7.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/colcon-core/packages/kratos_vishvesh_q2)
+[7.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kratos_vishvesh_q2)
+[7.374s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2' for CMake module files
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2' for CMake config files
+[7.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('kratos_vishvesh_q2', 'cmake_prefix_path')
+[7.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/hook/cmake_prefix_path.ps1'
+[7.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/hook/cmake_prefix_path.dsv'
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/hook/cmake_prefix_path.sh'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/lib'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/bin'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/lib/pkgconfig/kratos_vishvesh_q2.pc'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/lib/python3.10/site-packages'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/bin'
+[7.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.ps1'
+[7.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.dsv'
+[7.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.sh'
+[7.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.bash'
+[7.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/kratos_vishvesh_q2/package.zsh'
+[7.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2/share/colcon-core/packages/kratos_vishvesh_q2)
+[8.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/gs_ros2_control_demos -- -j16 -l16
+[8.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/gs_ros2_control_demos
+[9.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros2_control_demos)
+[9.501s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos' for CMake module files
+[9.502s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos' for CMake config files
+[9.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros2_control_demos', 'cmake_prefix_path')
+[9.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[9.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[9.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/gs_ros2_control_demos
+[9.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.sh'
+[9.505s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib'
+[9.505s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/bin'
+[9.506s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/pkgconfig/gs_ros2_control_demos.pc'
+[9.506s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/python3.10/site-packages'
+[9.506s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/bin'
+[9.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.ps1'
+[9.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv'
+[9.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.sh'
+[9.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.bash'
+[9.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.zsh'
+[9.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/colcon-core/packages/gs_ros2_control_demos)
+[9.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros2_control_demos)
+[9.511s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos' for CMake module files
+[9.512s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos' for CMake config files
+[9.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros2_control_demos', 'cmake_prefix_path')
+[9.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[9.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[9.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/hook/cmake_prefix_path.sh'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib'
+[9.516s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/bin'
+[9.516s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/pkgconfig/gs_ros2_control_demos.pc'
+[9.516s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/python3.10/site-packages'
+[9.517s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/bin'
+[9.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.ps1'
+[9.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv'
+[9.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.sh'
+[9.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.bash'
+[9.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.zsh'
+[9.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/colcon-core/packages/gs_ros2_control_demos)
+[15.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/topic_based_ros2_control -- -j16 -l16
+[15.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/topic_based_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/topic_based_ros2_control
+[15.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_based_ros2_control)
+[15.968s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control' for CMake module files
+[15.969s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control' for CMake config files
+[15.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'cmake_prefix_path')
+[15.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.ps1'
+[15.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.dsv'
+[15.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.sh'
+[15.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/topic_based_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/topic_based_ros2_control
+[15.977s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib'
+[15.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'ld_library_path_lib')
+[15.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.ps1'
+[15.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.dsv'
+[15.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.sh'
+[15.980s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/bin'
+[15.980s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib/pkgconfig/topic_based_ros2_control.pc'
+[15.980s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib/python3.10/site-packages'
+[15.981s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/bin'
+[15.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.ps1'
+[15.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.dsv'
+[15.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.sh'
+[15.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.bash'
+[15.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.zsh'
+[15.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/colcon-core/packages/topic_based_ros2_control)
+[15.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_based_ros2_control)
+[15.985s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control' for CMake module files
+[15.986s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control' for CMake config files
+[15.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'cmake_prefix_path')
+[15.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.ps1'
+[15.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.dsv'
+[15.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/cmake_prefix_path.sh'
+[15.989s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib'
+[15.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_based_ros2_control', 'ld_library_path_lib')
+[15.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.ps1'
+[15.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.dsv'
+[15.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/hook/ld_library_path_lib.sh'
+[15.991s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/bin'
+[15.991s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib/pkgconfig/topic_based_ros2_control.pc'
+[15.991s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib/python3.10/site-packages'
+[15.992s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/bin'
+[15.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.ps1'
+[15.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.dsv'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.sh'
+[15.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.bash'
+[15.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/topic_based_ros2_control/package.zsh'
+[15.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/topic_based_ros2_control/share/colcon-core/packages/topic_based_ros2_control)
+[25.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/simulation_interfaces -- -j16 -l16
+[25.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/simulation_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/simulation_interfaces
+[29.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_interfaces)
+[29.539s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces' for CMake module files
+[29.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/simulation_interfaces
+[29.539s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces' for CMake config files
+[29.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'cmake_prefix_path')
+[29.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.ps1'
+[29.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.dsv'
+[29.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.sh'
+[29.544s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/lib'
+[29.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'ld_library_path_lib')
+[29.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.ps1'
+[29.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.dsv'
+[29.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.sh'
+[29.545s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/bin'
+[29.545s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/lib/pkgconfig/simulation_interfaces.pc'
+[29.545s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/lib/python3.10/site-packages'
+[29.545s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/bin'
+[29.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.ps1'
+[29.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.dsv'
+[29.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.sh'
+[29.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.bash'
+[29.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.zsh'
+[29.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/simulation_interfaces/share/colcon-core/packages/simulation_interfaces)
+[29.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_interfaces)
+[29.547s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces' for CMake module files
+[29.547s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces' for CMake config files
+[29.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'cmake_prefix_path')
+[29.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.ps1'
+[29.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.dsv'
+[29.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/cmake_prefix_path.sh'
+[29.549s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/lib'
+[29.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_interfaces', 'ld_library_path_lib')
+[29.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.ps1'
+[29.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.dsv'
+[29.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/hook/ld_library_path_lib.sh'
+[29.550s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/bin'
+[29.550s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/lib/pkgconfig/simulation_interfaces.pc'
+[29.550s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/lib/python3.10/site-packages'
+[29.550s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/simulation_interfaces/bin'
+[29.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.ps1'
+[29.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.dsv'
+[29.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.sh'
+[29.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.bash'
+[29.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/simulation_interfaces/share/simulation_interfaces/package.zsh'
+[29.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/simulation_interfaces/share/colcon-core/packages/simulation_interfaces)
+[29.552s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros_interfaces' with build type 'ament_cmake'
+[29.552s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_ros_interfaces'
+[29.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros_interfaces': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/gs_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/gs_ros_interfaces
+[31.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/gs_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/gs_ros_interfaces
+[31.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros_interfaces': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/gs_ros_interfaces -- -j16 -l16
+[43.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/gs_ros_interfaces -- -j16 -l16
+[43.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros_interfaces': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/gs_ros_interfaces
+[47.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros_interfaces)
+[47.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/gs_ros_interfaces
+[47.570s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces' for CMake module files
+[47.570s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces' for CMake config files
+[47.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'cmake_prefix_path')
+[47.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.ps1'
+[47.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.dsv'
+[47.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.sh'
+[47.573s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib'
+[47.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'ld_library_path_lib')
+[47.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.ps1'
+[47.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.dsv'
+[47.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.sh'
+[47.574s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/bin'
+[47.574s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib/pkgconfig/gs_ros_interfaces.pc'
+[47.574s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib/python3.10/site-packages'
+[47.574s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/bin'
+[47.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.ps1'
+[47.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.dsv'
+[47.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.sh'
+[47.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.bash'
+[47.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.zsh'
+[47.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/colcon-core/packages/gs_ros_interfaces)
+[47.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_ros_interfaces)
+[47.576s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces' for CMake module files
+[47.577s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces' for CMake config files
+[47.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'cmake_prefix_path')
+[47.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.ps1'
+[47.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.dsv'
+[47.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/cmake_prefix_path.sh'
+[47.579s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib'
+[47.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_ros_interfaces', 'ld_library_path_lib')
+[47.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.ps1'
+[47.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.dsv'
+[47.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/hook/ld_library_path_lib.sh'
+[47.579s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/bin'
+[47.579s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib/pkgconfig/gs_ros_interfaces.pc'
+[47.580s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib/python3.10/site-packages'
+[47.580s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/bin'
+[47.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.ps1'
+[47.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.dsv'
+[47.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.sh'
+[47.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.bash'
+[47.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/gs_ros_interfaces/package.zsh'
+[47.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/gs_ros_interfaces/share/colcon-core/packages/gs_ros_interfaces)
+[47.581s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_simulation_interfaces' with build type 'ament_python'
+[47.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_simulation_interfaces', 'ament_prefix_path')
+[47.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/ament_prefix_path.ps1'
+[47.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/ament_prefix_path.dsv'
+[47.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/ament_prefix_path.sh'
+[47.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[47.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[47.704s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vishvesh/ros2_ws/src/genesis_ros/gs_simulation_interfaces'
+[47.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[47.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[47.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vishvesh/ros2_ws/build/gs_simulation_interfaces': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_simulation_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/gs_simulation_interfaces/build --no-deps symlink_data
+[48.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_simulation_interfaces', 'pythonpath_develop')
+[48.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vishvesh/ros2_ws/build/gs_simulation_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/vishvesh/ros2_ws/install/gs_ros_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/topic_based_ros2_control:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs:/home/vishvesh/ros2_ws/install/kratos_vishvesh:/home/vishvesh/ros2_ws/install/gs_ros2_control_demos LD_LIBRARY_PATH=/home/vishvesh/ros2_ws/install/gs_ros_interfaces/lib:/home/vishvesh/ros2_ws/install/simulation_interfaces/lib:/home/vishvesh/ros2_ws/install/topic_based_ros2_control/lib:/home/vishvesh/ros2_ws/install/kratos_vishvesh_q2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vishvesh/ros2_ws/build/gs_simulation_interfaces/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/gs_simulation_interfaces/build --no-deps symlink_data
+[48.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath_develop.ps1'
+[48.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/build/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath_develop.dsv'
+[48.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/build/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath_develop.sh'
+[48.248s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces' for CMake module files
+[48.248s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces' for CMake config files
+[48.248s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/lib'
+[48.248s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/bin'
+[48.248s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/lib/pkgconfig/gs_simulation_interfaces.pc'
+[48.248s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages'
+[48.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_simulation_interfaces', 'pythonpath')
+[48.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath.ps1'
+[48.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath.dsv'
+[48.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/hook/pythonpath.sh'
+[48.249s] Level 1:colcon.colcon_core.environment:checking '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/bin'
+[48.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_simulation_interfaces)
+[48.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.ps1'
+[48.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.dsv'
+[48.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.sh'
+[48.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.bash'
+[48.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces/package.zsh'
+[48.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/colcon-core/packages/gs_simulation_interfaces)
+[48.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[48.251s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.262s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishvesh/ros2_ws/install/local_setup.ps1'
+[48.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vishvesh/ros2_ws/install/_local_setup_util_ps1.py'
+[48.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishvesh/ros2_ws/install/setup.ps1'
+[48.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishvesh/ros2_ws/install/local_setup.sh'
+[48.265s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vishvesh/ros2_ws/install/_local_setup_util_sh.py'
+[48.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishvesh/ros2_ws/install/setup.sh'
+[48.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishvesh/ros2_ws/install/local_setup.bash'
+[48.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishvesh/ros2_ws/install/setup.bash'
+[48.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vishvesh/ros2_ws/install/local_setup.zsh'
+[48.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vishvesh/ros2_ws/install/setup.zsh'

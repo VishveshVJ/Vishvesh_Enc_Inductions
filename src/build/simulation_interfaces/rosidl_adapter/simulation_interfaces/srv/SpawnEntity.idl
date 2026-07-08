@@ -1,0 +1,88 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/SpawnEntity.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "simulation_interfaces/msg/Resource.idl"
+#include "simulation_interfaces/msg/Result.idl"
+
+module simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Spawn an entity (a robot, other object) by name or URI" "\n"
+      "Support for this interface is indicated through the SPAWNING value in GetSimulationFeatures.")
+    struct SpawnEntity_Request {
+      @verbatim (language="comment", text=
+        "A name to give to the spawned entity." "\n"
+        "If empty, a name field in the uri file or resource_string will be used," "\n"
+        "if supported and not empty (e.g. \"name\" field in SDFormat, URDF)." "\n"
+        "If the name is still empty or not unique (as determined by the simulator)," "\n"
+        "the service returns a generated name in the entity_name response field if the" "\n"
+        "allow_renaming field is set to true. Otherwise, the service call fails and an" "\n"
+        "error is returned.")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Determines whether the spawning succeeds with a non-unique name." "\n"
+        "If it is set to true, the user should always check entity_name response field" "\n"
+        "and use it for any further interactions.")
+      boolean allow_renaming;
+
+      @verbatim (language="comment", text=
+        "Resource such as SDFormat, URDF, USD or MJCF file, a native prefab, etc." "\n"
+        "Valid URIs can be determined by calling GetSpawnables first." "\n"
+        "Check simulator format support via the spawn_formats field in GetSimulatorFeatures." "\n"
+        "Using resource_string is supported if GetSimulatorFeatures includes" "\n"
+        "the SPAWNING_RESOURCE_STRING feature.")
+      simulation_interfaces::msg::Resource entity_resource;
+
+      @verbatim (language="comment", text=
+        "Spawn the entity with all its interfaces under this namespace.")
+      string entity_namespace;
+
+      @verbatim (language="comment", text=
+        "Initial entity pose." "\n"
+        "The header contains a reference frame, which defaults to global \"world\" frame." "\n"
+        "This frame must be known to the simulator, e.g. of an object spawned earlier." "\n"
+        "The timestamp field in the header is ignored.")
+      geometry_msgs::msg::PoseStamped initial_pose;
+    };
+    module SpawnEntity_Response_Constants {
+      @verbatim (language="comment", text=
+        "Additional result.result_code values for this service. Check result.error_message for further details." "\n"        "Given name is already taken by entity and allow_renaming is false.")
+      const uint8 NAME_NOT_UNIQUE = 101;
+      @verbatim (language="comment", text=
+        "Given name is invalid in the simulator (e.g. does not meet naming" "\n"        "requirements such as allowed characters). This is also returned if name is" "\n"        "empty and allow_renaming is false.")
+      const uint8 NAME_INVALID = 102;
+      @verbatim (language="comment", text=
+        "Format for uri or resource string is unsupported. Check supported formats" "\n"        "through GetSimulatorFeatures service, in spawn_formats field.")
+      const uint8 UNSUPPORTED_FORMAT = 103;
+      @verbatim (language="comment", text=
+        "Both uri and resource string are empty.")
+      const uint8 NO_RESOURCE = 104;
+      @verbatim (language="comment", text=
+        "Namespace does not meet namespace naming standards.")
+      const uint8 NAMESPACE_INVALID = 105;
+      @verbatim (language="comment", text=
+        "Resource file or string failed to parse.")
+      const uint8 RESOURCE_PARSE_ERROR = 106;
+      @verbatim (language="comment", text=
+        "At least one of resource assets (such as meshes) was not found.")
+      const uint8 MISSING_ASSETS = 107;
+      @verbatim (language="comment", text=
+        "At least one of resource assets (such as meshes) is not supported.")
+      const uint8 UNSUPPORTED_ASSETS = 108;
+      @verbatim (language="comment", text=
+        "initial_pose is invalid, such as when the quaternion is invalid or position" "\n"        "exceeds simulator world bounds.")
+      const uint8 INVALID_POSE = 109;
+    };
+    struct SpawnEntity_Response {
+      simulation_interfaces::msg::Result result;
+
+      @verbatim (language="comment", text=
+        "Spawned entity full name, guaranteed to be unique in the simulation." "\n"
+        "If allow_renaming is true, it may differ from the request name field.")
+      string entity_name;
+    };
+  };
+};

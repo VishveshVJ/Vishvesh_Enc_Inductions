@@ -1,0 +1,23 @@
+[0.173s] Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh -- -j16 -l16
+[0.200s] Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/kratos_vishvesh -- -j16 -l16
+[0.208s] Invoking command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh
+[0.215s] -- Install configuration: ""
+[0.216s] -- Execute custom install script
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/kratos_vishvesh/rover_status_msg_publisher.py
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/lib/kratos_vishvesh/rover_status_msg_subscriber.py
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/ament_index/resource_index/package_run_dependencies/kratos_vishvesh
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/ament_index/resource_index/parent_prefix_path/kratos_vishvesh
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/path.sh
+[0.217s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/environment/path.dsv
+[0.217s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.bash
+[0.217s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.sh
+[0.217s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.zsh
+[0.217s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/local_setup.dsv
+[0.217s] -- Symlinking: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.dsv
+[0.224s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/ament_index/resource_index/packages/kratos_vishvesh
+[0.224s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/cmake/kratos_vishveshConfig.cmake
+[0.224s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/cmake/kratos_vishveshConfig-version.cmake
+[0.224s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/install/kratos_vishvesh/share/kratos_vishvesh/package.xml
+[0.226s] Invoked command in '/home/vishvesh/ros2_ws/build/kratos_vishvesh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/kratos_vishvesh

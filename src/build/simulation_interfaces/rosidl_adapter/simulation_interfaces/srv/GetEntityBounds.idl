@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/GetEntityBounds.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/Bounds.idl"
+#include "simulation_interfaces/msg/Result.idl"
+
+module simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Get geometrical bounds for entity. This feature is available if GetSimulatorFeatures includes ENTITY_BOUNDS feature." "\n"
+      "Support for this interface is indicated through the ENTITY_BOUNDS value in GetSimulationFeatures.")
+    struct GetEntityBounds_Request {
+      @verbatim (language="comment", text=
+        "Entity identified by its unique name as returned by GetEntities / SpawnEntity.")
+      string entity;
+    };
+    struct GetEntityBounds_Response {
+      simulation_interfaces::msg::Result result;
+
+      @verbatim (language="comment", text=
+        "Entity bounds. Only valid if result.result_code is OK." "\n"
+        "Bounds with TYPE_BOX should be returned, unless there is a configuration" "\n"
+        "parameter for the simulator to control the type and it is set otherwise.")
+      simulation_interfaces::msg::Bounds bounds;
+    };
+  };
+};

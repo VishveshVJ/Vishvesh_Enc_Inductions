@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/EntityState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Accel.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module simulation_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Entity current pose, twist and acceleration")
+    struct EntityState {
+      @verbatim (language="comment", text=
+        "Reference frame and timestamp for pose and twist. Empty frame defaults to world.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Pose in reference frame, ground truth.")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "Ground truth linear and angular velocities" "\n"
+        "observed in the frame specified by header.frame_id" "\n"
+        "See https://github.com/ros2/common_interfaces/pull/240 for conventions.")
+      geometry_msgs::msg::Twist twist;
+
+      @verbatim (language="comment", text=
+        "Linear and angular acceleration ground truth, following the same convention.")
+      geometry_msgs::msg::Accel acceleration;
+    };
+  };
+};

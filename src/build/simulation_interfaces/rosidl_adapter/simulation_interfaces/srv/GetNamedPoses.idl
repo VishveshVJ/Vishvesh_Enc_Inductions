@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/GetNamedPoses.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/NamedPose.idl"
+#include "simulation_interfaces/msg/Result.idl"
+#include "simulation_interfaces/msg/TagsFilter.idl"
+
+module simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Get predefined poses which are convenient to for spawning, navigation goals etc." "\n"
+      "Support for this interface is indicated through the NAMED_POSES value in GetSimulationFeatures.")
+    struct GetNamedPoses_Request {
+      @verbatim (language="comment", text=
+        "Tags filter to apply. Only named poses with matching tags field" "\n"
+        "will be returned. Can be empty (see TagsFilter).")
+      simulation_interfaces::msg::TagsFilter tags;
+    };
+    struct GetNamedPoses_Response {
+      simulation_interfaces::msg::Result result;
+
+      @verbatim (language="comment", text=
+        "A list of predefined poses, which may be empty.")
+      sequence<simulation_interfaces::msg::NamedPose> poses;
+    };
+  };
+};

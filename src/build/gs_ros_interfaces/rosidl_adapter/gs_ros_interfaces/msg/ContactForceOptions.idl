@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gs_ros_interfaces/msg/ContactForceOptions.msg
+// generated code does not contain a copyright notice
+
+#include "gs_ros_interfaces/msg/GeneralSensorOptions.idl"
+#include "gs_ros_interfaces/msg/NoisySensorOptions.idl"
+#include "gs_ros_interfaces/msg/RigidSensorOptions.idl"
+#include "gs_ros_interfaces/msg/RosSensorOptions.idl"
+
+module gs_ros_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Configuration for a contact force sensor")
+    struct ContactForceOptions {
+      gs_ros_interfaces::msg::GeneralSensorOptions options;
+
+      gs_ros_interfaces::msg::RosSensorOptions ros_options;
+
+      gs_ros_interfaces::msg::RigidSensorOptions rigid_options;
+
+      gs_ros_interfaces::msg::NoisySensorOptions noisy_options;
+
+      @verbatim (language="comment", text=
+        "Lower bounds for force measurement")
+      sequence<float> min_force;
+
+      @verbatim (language="comment", text=
+        "Upper bounds for force measurement")
+      sequence<float> max_force;
+
+      @verbatim (language="comment", text=
+        "visualization color [r, g, b, a]")
+      sequence<float> debug_color;
+
+      @verbatim (language="comment", text=
+        "Scale of debug vectors")
+      float debug_scale;
+    };
+  };
+};

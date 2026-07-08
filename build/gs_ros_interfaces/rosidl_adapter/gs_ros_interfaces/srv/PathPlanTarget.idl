@@ -1,0 +1,76 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gs_ros_interfaces/srv/PathPlanTarget.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module gs_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Motion planning service for robots")
+    struct PathPlanTarget_Request {
+      string robot_name;
+
+      string attached_intity;
+
+      string target_link_name;
+
+      @verbatim (language="comment", text=
+        "Goal joint angles")
+      sequence<double> goal_state;
+
+      @verbatim (language="comment", text=
+        "Starting joint angles")
+      sequence<double> start_state;
+
+      int32 max_nodes;
+
+      @verbatim (language="comment", text=
+        "Path resolution")
+      double resolution;
+
+      @verbatim (language="comment", text=
+        "Planning timeout in seconds")
+      double timeout;
+
+      int32 max_retries;
+
+      boolean smooth_path;
+
+      int32 num_waypoints;
+
+      boolean ignore_collision;
+
+      @verbatim (language="comment", text=
+        "Planner type (e.g., RRT)")
+      string planner;
+
+      @verbatim (language="comment", text=
+        "End-effector link")
+      string ee_link_name;
+
+      @verbatim (language="comment", text=
+        "Show path in GUI")
+      boolean visualize;
+
+      @verbatim (language="comment", text=
+        "Execute path on robot")
+      boolean execute;
+
+      geometry_msgs::msg::Point target_pos;
+
+      double tolerance;
+    };
+    struct PathPlanTarget_Response {
+      boolean success;
+
+      boolean plan_found;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "Flattened path [w1_j1, w1_j2, ..., wN_jM]")
+      sequence<double> path;
+    };
+  };
+};

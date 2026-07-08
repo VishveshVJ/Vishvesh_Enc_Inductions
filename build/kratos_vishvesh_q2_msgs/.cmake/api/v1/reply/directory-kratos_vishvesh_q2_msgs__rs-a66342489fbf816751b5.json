@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kratos_vishvesh_q2_msgs__rs",
+		"source" : "/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/kratos_vishvesh_q2_msgs__rs"
+	}
+}

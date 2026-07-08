@@ -1,0 +1,163 @@
+[0.294s] Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/gs_ros2_control_demos
+[0.346s] -- The C compiler identification is GNU 11.4.0
+[0.394s] -- The CXX compiler identification is GNU 11.4.0
+[0.401s] -- Detecting C compiler ABI info
+[0.459s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.466s] -- Detecting C compile features
+[0.466s] -- Detecting C compile features - done
+[0.470s] -- Detecting CXX compiler ABI info
+[0.558s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.568s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.102s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.127s] -- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.161s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.166s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.174s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.314s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.348s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.351s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.428s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.456s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.498s] -- Looking for pthread.h
+[1.566s] -- Looking for pthread.h - found
+[1.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.636s] -- Found Threads: TRUE  
+[1.665s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.679s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.744s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.746s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.746s] -- Configured cppcheck include dirs: 
+[1.746s] -- Configured cppcheck exclude dirs and/or files: 
+[1.748s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.748s] -- Configured cpplint exclude dirs and/or files: 
+[1.749s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.750s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.752s] -- Added test 'uncrustify' to check C / C++ code style
+[1.752s] -- Configured uncrustify additional arguments: 
+[1.753s] -- Added test 'xmllint' to check XML markup files
+[1.754s] -- Configuring done
+[1.775s] -- Generating done
+[1.785s] -- Build files have been written to: /home/vishvesh/ros2_ws/build/gs_ros2_control_demos
+[1.793s] Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake /home/vishvesh/ros2_ws/src/genesis_ros/gs_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vishvesh/ros2_ws/install/gs_ros2_control_demos
+[1.794s] Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/gs_ros2_control_demos -- -j16 -l16
+[1.838s] [  7%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[1.839s] [ 14%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[1.839s] [ 21%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[1.840s] [ 28%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[1.845s] [ 35%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[1.845s] [ 42%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[1.846s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[7.035s] [ 57%] [32m[1mLinking CXX executable example_gripper[0m
+[7.318s] [ 57%] Built target example_gripper
+[7.552s] [ 64%] [32m[1mLinking CXX executable example_position[0m
+[7.789s] [ 71%] [32m[1mLinking CXX executable example_velocity[0m
+[7.811s] [ 78%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[7.826s] [ 85%] [32m[1mLinking CXX executable example_diff_drive[0m
+[7.853s] [ 85%] Built target example_position
+[7.986s] [ 85%] Built target example_tricycle_drive
+[7.993s] [ 85%] Built target example_velocity
+[7.999s] [ 85%] Built target example_diff_drive
+[8.216s] [ 92%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[8.364s] [ 92%] Built target example_ackermann_drive
+[8.391s] [100%] [32m[1mLinking CXX executable example_effort[0m
+[8.549s] [100%] Built target example_effort
+[8.561s] Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/build/gs_ros2_control_demos -- -j16 -l16
+[8.562s] Invoking command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/gs_ros2_control_demos
+[8.570s] -- Install configuration: ""
+[8.570s] -- Execute custom install script
+[8.571s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[8.576s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_effort.launch.py
+[8.584s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_position.launch.py
+[8.592s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_velocity.launch.py
+[8.602s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/diff_drive_example.launch.py
+[8.609s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[8.615s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[8.623s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[8.628s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/panda_example_position.launch.py
+[8.634s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[8.639s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/pendulum_example_position.launch.py
+[8.648s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[8.656s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/ackermann_drive_controller.yaml
+[8.663s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_effort.yaml
+[8.670s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_position.yaml
+[8.676s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_velocity.yaml
+[8.684s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/diff_drive_controller.yaml
+[8.691s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/gripper_controller.yaml
+[8.698s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/mecanum_drive_controller.yaml
+[8.706s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/panda_controller_position.yaml
+[8.711s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/tricycle_drive_controller.yaml
+[8.718s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/finger.obj
+[8.725s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/hand.obj
+[8.732s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link0.obj
+[8.739s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link1.obj
+[8.749s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link2.obj
+[8.757s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link3.obj
+[8.764s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link4.obj
+[8.773s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link5.obj
+[8.781s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link6.mtl
+[8.790s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link6.obj
+[8.800s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link7.obj
+[8.812s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/base_link.dae
+[8.819s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/base_link_uv.png
+[8.830s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/colors.png
+[8.839s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/finger.mtl
+[8.850s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/finger.obj
+[8.861s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/hand.mtl
+[8.871s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/hand.obj
+[8.882s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link1.mtl
+[8.890s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link1.obj
+[8.899s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link2.mtl
+[8.907s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link2.obj
+[8.914s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link3.mtl
+[8.922s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link3.obj
+[8.930s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link4.mtl
+[8.940s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link4.obj
+[8.950s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link5.mtl
+[8.958s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link5.obj
+[8.969s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link6.mtl
+[8.978s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link6.obj
+[8.987s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/visualShapeBench.json_0.json
+[8.998s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/panda.urdf
+[9.009s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[9.019s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[9.028s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[9.038s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[9.047s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[9.058s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[9.069s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[9.077s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[9.086s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[9.094s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[9.103s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_position
+[9.111s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_velocity
+[9.121s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_effort
+[9.132s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_diff_drive
+[9.141s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_tricycle_drive
+[9.152s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_ackermann_drive
+[9.160s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_gripper
+[9.167s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gs_ros2_control_demos
+[9.174s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gs_ros2_control_demos
+[9.182s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/ament_prefix_path.sh
+[9.189s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/ament_prefix_path.dsv
+[9.196s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/path.sh
+[9.208s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/path.dsv
+[9.215s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.bash
+[9.225s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.sh
+[9.234s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.zsh
+[9.245s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.dsv
+[9.255s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv
+[9.264s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/ament_index/resource_index/packages/gs_ros2_control_demos
+[9.274s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/cmake/gs_ros2_control_demosConfig.cmake
+[9.283s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/cmake/gs_ros2_control_demosConfig-version.cmake
+[9.295s] -- Symlinking: /home/vishvesh/ros2_ws/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.xml
+[9.310s] Invoked command in '/home/vishvesh/ros2_ws/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/build/gs_ros2_control_demos

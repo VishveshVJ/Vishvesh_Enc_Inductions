@@ -1,0 +1,415 @@
+// generated from rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
+// with input from simulation_interfaces:msg/EntityFilters.idl
+// generated code does not contain a copyright notice
+#include "simulation_interfaces/msg/detail/entity_filters__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "simulation_interfaces/msg/detail/entity_filters__struct.hpp"
+
+#include <limits>
+#include <stdexcept>
+#include <string>
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
+#include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp"
+#include "fastcdr/Cdr.h"
+
+
+// forward declaration of message dependencies and their conversion functions
+namespace simulation_interfaces
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const simulation_interfaces::msg::EntityCategory &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  simulation_interfaces::msg::EntityCategory &);
+size_t get_serialized_size(
+  const simulation_interfaces::msg::EntityCategory &,
+  size_t current_alignment);
+size_t
+max_serialized_size_EntityCategory(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace simulation_interfaces
+
+namespace simulation_interfaces
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const simulation_interfaces::msg::TagsFilter &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  simulation_interfaces::msg::TagsFilter &);
+size_t get_serialized_size(
+  const simulation_interfaces::msg::TagsFilter &,
+  size_t current_alignment);
+size_t
+max_serialized_size_TagsFilter(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace simulation_interfaces
+
+namespace simulation_interfaces
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const simulation_interfaces::msg::Bounds &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  simulation_interfaces::msg::Bounds &);
+size_t get_serialized_size(
+  const simulation_interfaces::msg::Bounds &,
+  size_t current_alignment);
+size_t
+max_serialized_size_Bounds(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace simulation_interfaces
+
+
+namespace simulation_interfaces
+{
+
+namespace msg
+{
+
+namespace typesupport_fastrtps_cpp
+{
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_simulation_interfaces
+cdr_serialize(
+  const simulation_interfaces::msg::EntityFilters & ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  // Member: filter
+  cdr << ros_message.filter;
+  // Member: categories
+  {
+    size_t size = ros_message.categories.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
+      simulation_interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(
+        ros_message.categories[i],
+        cdr);
+    }
+  }
+  // Member: tags
+  simulation_interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.tags,
+    cdr);
+  // Member: bounds
+  simulation_interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.bounds,
+    cdr);
+  return true;
+}
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_simulation_interfaces
+cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  simulation_interfaces::msg::EntityFilters & ros_message)
+{
+  // Member: filter
+  cdr >> ros_message.filter;
+
+  // Member: categories
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.getState();
+    bool correct_size = cdr.jump(size);
+    cdr.setState(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
+    ros_message.categories.resize(size);
+    for (size_t i = 0; i < size; i++) {
+      simulation_interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+        cdr, ros_message.categories[i]);
+    }
+  }
+
+  // Member: tags
+  simulation_interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.tags);
+
+  // Member: bounds
+  simulation_interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.bounds);
+
+  return true;
+}  // NOLINT(readability/fn_size)
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_simulation_interfaces
+get_serialized_size(
+  const simulation_interfaces::msg::EntityFilters & ros_message,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  (void)padding;
+  (void)wchar_size;
+
+  // Member: filter
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.filter.size() + 1);
+  // Member: categories
+  {
+    size_t array_size = ros_message.categories.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        simulation_interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(
+        ros_message.categories[index], current_alignment);
+    }
+  }
+  // Member: tags
+
+  current_alignment +=
+    simulation_interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.tags, current_alignment);
+  // Member: bounds
+
+  current_alignment +=
+    simulation_interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.bounds, current_alignment);
+
+  return current_alignment - initial_alignment;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_simulation_interfaces
+max_serialized_size_EntityFilters(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
+  (void)padding;
+  (void)wchar_size;
+
+  full_bounded = true;
+  is_plain = true;
+
+
+  // Member: filter
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: categories
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        simulation_interfaces::msg::typesupport_fastrtps_cpp::max_serialized_size_EntityCategory(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: tags
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        simulation_interfaces::msg::typesupport_fastrtps_cpp::max_serialized_size_TagsFilter(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: bounds
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        simulation_interfaces::msg::typesupport_fastrtps_cpp::max_serialized_size_Bounds(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = simulation_interfaces::msg::EntityFilters;
+    is_plain =
+      (
+      offsetof(DataType, bounds) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
+}
+
+static bool _EntityFilters__cdr_serialize(
+  const void * untyped_ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  auto typed_message =
+    static_cast<const simulation_interfaces::msg::EntityFilters *>(
+    untyped_ros_message);
+  return cdr_serialize(*typed_message, cdr);
+}
+
+static bool _EntityFilters__cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  void * untyped_ros_message)
+{
+  auto typed_message =
+    static_cast<simulation_interfaces::msg::EntityFilters *>(
+    untyped_ros_message);
+  return cdr_deserialize(cdr, *typed_message);
+}
+
+static uint32_t _EntityFilters__get_serialized_size(
+  const void * untyped_ros_message)
+{
+  auto typed_message =
+    static_cast<const simulation_interfaces::msg::EntityFilters *>(
+    untyped_ros_message);
+  return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
+}
+
+static size_t _EntityFilters__max_serialized_size(char & bounds_info)
+{
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_EntityFilters(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
+}
+
+static message_type_support_callbacks_t _EntityFilters__callbacks = {
+  "simulation_interfaces::msg",
+  "EntityFilters",
+  _EntityFilters__cdr_serialize,
+  _EntityFilters__cdr_deserialize,
+  _EntityFilters__get_serialized_size,
+  _EntityFilters__max_serialized_size
+};
+
+static rosidl_message_type_support_t _EntityFilters__handle = {
+  rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
+  &_EntityFilters__callbacks,
+  get_message_typesupport_handle_function,
+};
+
+}  // namespace typesupport_fastrtps_cpp
+
+}  // namespace msg
+
+}  // namespace simulation_interfaces
+
+namespace rosidl_typesupport_fastrtps_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_EXPORT_simulation_interfaces
+const rosidl_message_type_support_t *
+get_message_type_support_handle<simulation_interfaces::msg::EntityFilters>()
+{
+  return &simulation_interfaces::msg::typesupport_fastrtps_cpp::_EntityFilters__handle;
+}
+
+}  // namespace rosidl_typesupport_fastrtps_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, simulation_interfaces, msg, EntityFilters)() {
+  return &simulation_interfaces::msg::typesupport_fastrtps_cpp::_EntityFilters__handle;
+}
+
+#ifdef __cplusplus
+}
+#endif

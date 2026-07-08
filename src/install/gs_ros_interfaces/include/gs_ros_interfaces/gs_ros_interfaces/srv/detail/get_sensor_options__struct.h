@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_generator_c/gs_ros_interfaces/srv/detail/get_sensor_options__struct.h

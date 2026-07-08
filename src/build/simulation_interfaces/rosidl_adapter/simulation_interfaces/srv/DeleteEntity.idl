@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/DeleteEntity.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/Result.idl"
+
+module simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Remove an entity (a robot, other object) from the simulation." "\n"
+      "Support for this interface is indicated through the DELETING value in GetSimulationFeatures.")
+    struct DeleteEntity_Request {
+      @verbatim (language="comment", text=
+        "Entity identified by its unique name with a namespace," "\n"
+        "as returned by SpawnEntity or GetEntities.")
+      string entity;
+    };
+    struct DeleteEntity_Response {
+      simulation_interfaces::msg::Result result;
+    };
+  };
+};

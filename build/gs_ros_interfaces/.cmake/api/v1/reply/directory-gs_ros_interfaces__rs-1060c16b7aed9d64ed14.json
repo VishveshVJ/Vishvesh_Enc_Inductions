@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gs_ros_interfaces__rs",
+		"source" : "/home/vishvesh/ros2_ws/build/gs_ros_interfaces/gs_ros_interfaces__rs"
+	}
+}

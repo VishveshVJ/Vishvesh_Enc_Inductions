@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/GetSimulationState.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/Result.idl"
+#include "simulation_interfaces/msg/SimulationState.idl"
+
+module simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Gets the simulation state (paused, playing, stopped)" "\n"
+      "Support for this interface is indicated through the SIMULATION_STATE_GETTING value in GetSimulationFeatures.")
+    struct GetSimulationState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetSimulationState_Response {
+      @verbatim (language="comment", text=
+        "Current state of the simulation.")
+      simulation_interfaces::msg::SimulationState state;
+
+      simulation_interfaces::msg::Result result;
+    };
+  };
+};

@@ -1,0 +1,38 @@
+running develop
+Removing /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice.egg-link (link to .)
+running egg_info
+writing ../../build/Practice/Practice.egg-info/PKG-INFO
+writing dependency_links to ../../build/Practice/Practice.egg-info/dependency_links.txt
+writing entry points to ../../build/Practice/Practice.egg-info/entry_points.txt
+writing requirements to ../../build/Practice/Practice.egg-info/requires.txt
+writing top-level names to ../../build/Practice/Practice.egg-info/top_level.txt
+reading manifest file '../../build/Practice/Practice.egg-info/SOURCES.txt'
+writing manifest file '../../build/Practice/Practice.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice
+copying Practice/pose_subscriber.py -> /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice
+copying Practice/draw_circle.py -> /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice
+copying Practice/my_first_node.py -> /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice
+copying Practice/__init__.py -> /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice
+running install
+running install_lib
+creating /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice
+copying /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice/pose_subscriber.py -> /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice
+copying /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice/draw_circle.py -> /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice
+copying /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice/my_first_node.py -> /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice
+copying /home/vishvesh/ros2_ws/build/Practice/build/lib/Practice/__init__.py -> /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice
+byte-compiling /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice/draw_circle.py to draw_circle.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice/my_first_node.py to my_first_node.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/Practice -> /home/vishvesh/ros2_ws/install/Practice/share/ament_index/resource_index/packages
+copying package.xml -> /home/vishvesh/ros2_ws/install/Practice/share/Practice
+running install_egg_info
+Copying ../../build/Practice/Practice.egg-info to /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice-0.0.0-py3.10.egg-info
+running install_scripts
+Installing draw_circle_node script to /home/vishvesh/ros2_ws/install/Practice/lib/Practice
+Installing name_to_run script to /home/vishvesh/ros2_ws/install/Practice/lib/Practice
+Installing pose_node script to /home/vishvesh/ros2_ws/install/Practice/lib/Practice
+writing list of installed files to '/home/vishvesh/ros2_ws/build/Practice/install.log'

@@ -1,0 +1,3 @@
+# Teleport an entity to a specific pose
+string entity_name
+geometry_msgs/Pose pose

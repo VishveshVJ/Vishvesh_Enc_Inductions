@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/SimulationState.msg
+// generated code does not contain a copyright notice
+
+
+module simulation_interfaces {
+  module msg {
+    module SimulationState_Constants {
+      @verbatim (language="comment", text=
+        "Simulation is stopped, which is equivalent to pausing and resetting with ALL_PAUSED." "\n"        "This is typically the default state when simulator is launched." "\n"        "Stopped simulation can be played. It can also be paused, which means" "\n"        "starting simulation in a paused state immediately," "\n"        "without any time steps for physics or simulated clock ticks.")
+      const uint8 STATE_STOPPED = 0;
+      @verbatim (language="comment", text=
+        "Simulation is playing, can be either paused or stopped.")
+      const uint8 STATE_PLAYING = 1;
+      @verbatim (language="comment", text=
+        "Simulation is paused, can be either stopped (which will reset it) or played.")
+      const uint8 STATE_PAUSED = 2;
+      @verbatim (language="comment", text=
+        "Closing the simulator application. Switching from STATE_PLAYING or STATE_PAUSED" "\n"        "states is expected to stop the simulation first, and then exit." "\n"        "Simulation interfaces will become unavailable after quitting." "\n"        "Running simulation application is outside of the simulation interfaces as" "\n"        "there is no service to handle the call when the simulator is not up.")
+      const uint8 STATE_QUITTING = 3;
+      @verbatim (language="comment", text=
+        "Simulation world is currently unloaded." "\n"        "The simulation is inactive and cannot be started, stopped, or paused.")
+      const uint8 STATE_NO_WORLD = 4;
+      @verbatim (language="comment", text=
+        "Simulation world is currently loading." "\n"        "The simulation is inactive while world is loading and cannot be started, stopped, or paused.")
+      const uint8 STATE_LOADING_WORLD = 5;
+    };
+    @verbatim (language="comment", text=
+      "Simulation states used in SetSimulationState and returned in GetSimulationState")
+    struct SimulationState {
+      uint8 state;
+    };
+  };
+};

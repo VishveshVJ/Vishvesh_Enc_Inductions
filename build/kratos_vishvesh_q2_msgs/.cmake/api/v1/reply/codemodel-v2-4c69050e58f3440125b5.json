@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-050fe39b1eb0d8787578.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "kratos_vishvesh_q2_msgs__py",
+					"jsonFile" : "directory-kratos_vishvesh_q2_msgs__py-e1e417f0eb3a230cf49b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/kratos_vishvesh_q2_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "kratos_vishvesh_q2_msgs__rs",
+					"jsonFile" : "directory-kratos_vishvesh_q2_msgs__rs-a66342489fbf816751b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/kratos_vishvesh_q2_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "kratos_vishvesh_q2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kratos_vishvesh_q2_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kratos_vishvesh_q2_msgs_egg-d9e3ba829d7735c3c287.json",
+					"name" : "ament_cmake_python_build_kratos_vishvesh_q2_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_kratos_vishvesh_q2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_kratos_vishvesh_q2_msgs-a17a20167c90ef6a4335.json",
+					"name" : "ament_cmake_python_symlink_kratos_vishvesh_q2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs-ef578a14a548af30879c.json",
+					"name" : "kratos_vishvesh_q2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__cpp-c59e96ed80c239c0a048.json",
+					"name" : "kratos_vishvesh_q2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "kratos_vishvesh_q2_msgs__py::@f3a9221557d614c3c2ae",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__py-774c7f795cd9b405837f.json",
+					"name" : "kratos_vishvesh_q2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_generator_c-036dd3d85ea35178886f.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_generator_py-f1bc67b6887d0d8a258d.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_c-6252ef809bd4c66b4ee0.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_c__pyext-ead940ed1ff80e2b270e.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_cpp-0062f93d6b73bc32bd52.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_c-27b27d88b4e5c922425a.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_c__pyext-4c1d1e7f3b2322b741b1.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_cpp-0a9c607bfda19bb89d35.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_c-b3160b27dfc9ca230540.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_c__pyext-aedd6c26e518d4b6dc6d.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_cpp-f148dc86322642071b34.json",
+					"name" : "kratos_vishvesh_q2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "kratos_vishvesh_q2_msgs__rs::@bb47060492defdbca910",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs__rs-6e11fabb761760028b5a.json",
+					"name" : "kratos_vishvesh_q2_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kratos_vishvesh_q2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kratos_vishvesh_q2_msgs_uninstall-1a918beb5c5d67e716f3.json",
+					"name" : "kratos_vishvesh_q2_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f9da8289c0f7f8adb1dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs",
+		"source" : "/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

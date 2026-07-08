@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/WorldResource.msg
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/Resource.idl"
+
+module simulation_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "World is a virtual environment in which the simulation happens." "\n"
+      "Worlds are also known as scenes or levels in some simulators." "\n"
+      "Depending on the world format, loading of a world might be associated with changes" "\n"
+      "in certain parameters, including physics settings such as gravity." "\n"
+      "World resources may be defined in standard or simulation-specific formats," "\n"
+      "and, depending on the simulator, loaded from local or remote repositories.")
+    struct WorldResource {
+      @verbatim (language="comment", text=
+        "World name, which is not necessarily unique.")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The resource for the world to be loaded.")
+      simulation_interfaces::msg::Resource world_resource;
+
+      @verbatim (language="comment", text=
+        "Optional custom description of the world")
+      string description;
+
+      @verbatim (language="comment", text=
+        "Optional tags describing the world (e.g., \"indoor\", \"outdoor\", \"warehouse\")")
+      sequence<string> tags;
+    };
+  };
+};

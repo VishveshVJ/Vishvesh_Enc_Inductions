@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gs_ros_interfaces/srv/StopRecording.srv
+// generated code does not contain a copyright notice
+
+
+module gs_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Stop and save a camera recording")
+    struct StopRecording_Request {
+      string name;
+
+      string file_name;
+
+      double fps;
+    };
+    struct StopRecording_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

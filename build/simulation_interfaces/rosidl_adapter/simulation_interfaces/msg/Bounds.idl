@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/Bounds.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module simulation_interfaces {
+  module msg {
+    module Bounds_Constants {
+      @verbatim (language="comment", text=
+        "As bounds are optional in most interfaces, TYPE_EMPTY signifies empty bounds, to be understood as \"unbounded\"." "\n"        "Otherwise, the fields are expected to define a valid volume." "\n"        "For spawning with a named pose, you should check whether the entity simulation model fits within the bounds" "\n"        "before calling SpawnEntity, to avoid overlaps and unstable behavior." "\n"        "bounds type" "\n"        "No bounds. The points vector will be empty.")
+      const uint8 TYPE_EMPTY = 0;
+      @verbatim (language="comment", text=
+        "Axis-aligned bounding box, points field should have two values," "\n"        "which are upper right and lower left corners of the box.")
+      const uint8 TYPE_BOX = 1;
+      @verbatim (language="comment", text=
+        "Points define a convex hull (at least 3 non-collinear points).")
+      const uint8 TYPE_CONVEX_HULL = 2;
+      @verbatim (language="comment", text=
+        "A sphere with center and radius. First element of points vector is the center." "\n"        "The x field of the second point of the vector is the radius (y and z are ignored).")
+      const uint8 TYPE_SPHERE = 3;
+    };
+    @verbatim (language="comment", text=
+      "Bounds which are useful in several contexts, e.g. to avoid spawning with other object overlap," "\n"
+      "or parking in a spot that is too small." "\n"
+      "Certain goals or points might be valid for a small object, but not suitable for a large one," "\n"
+      "or a differently shaped one." "\n"
+      "Bounds can be also checked to ensure certain scenario conditions are met." "\n"
+      "For entities, these limits are relative to entity's canonical link transform, following ROS rep-103 convention.")
+    struct Bounds {
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "Points defining the bounded area. Check type field to determine semantics." "\n"
+        "Valid sizes are zero (no bounds), 2 (sphere or box, depending on type field)," "\n"
+        "and 3 or more (convex hull).")
+      sequence<geometry_msgs::msg::Vector3> points;
+    };
+  };
+};

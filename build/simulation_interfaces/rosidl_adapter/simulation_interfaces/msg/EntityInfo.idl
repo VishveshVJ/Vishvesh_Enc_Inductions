@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/EntityInfo.msg
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/EntityCategory.idl"
+
+module simulation_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Entity type and additional information")
+    struct EntityInfo {
+      @verbatim (language="comment", text=
+        "Major category for the entity. Extra entity type distinction can be made through tags.")
+      simulation_interfaces::msg::EntityCategory category;
+
+      @verbatim (language="comment", text=
+        "optional: verbose, human-readable description of the entity.")
+      string description;
+
+      @verbatim (language="comment", text=
+        "optional: tags which are useful for filtering and categorizing entities further.")
+      sequence<string> tags;
+    };
+  };
+};

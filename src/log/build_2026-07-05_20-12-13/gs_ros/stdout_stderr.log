@@ -1,0 +1,82 @@
+/home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+Removing /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs-ros.egg-link (link to .)
+/home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/gs_ros/gs_ros.egg-info/PKG-INFO
+writing dependency_links to ../../build/gs_ros/gs_ros.egg-info/dependency_links.txt
+writing requirements to ../../build/gs_ros/gs_ros.egg-info/requires.txt
+writing top-level names to ../../build/gs_ros/gs_ros.egg-info/top_level.txt
+reading manifest file '../../build/gs_ros/gs_ros.egg-info/SOURCES.txt'
+writing manifest file '../../build/gs_ros/gs_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/gs_ros_services.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/gs_ros_sensors.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/gs_ros_robot_control.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/gs_ros_sim.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/__init__.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/gs_ros_bridge.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+copying gs_ros/gs_ros_utils.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros
+creating /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/grid_lidar_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/camera_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/lidar_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/imu_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/sectional_lidar_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/base_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/laser_scan_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/contact_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/__init__.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/sensor_helper.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+copying gs_ros/sensors/contact_force_sensor.py -> /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors
+running install
+running install_lib
+creating /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/gs_ros_services.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/gs_ros_sensors.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/gs_ros_robot_control.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/gs_ros_sim.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+creating /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/grid_lidar_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/camera_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/lidar_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/imu_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/sectional_lidar_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/base_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/laser_scan_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/contact_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/__init__.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/sensor_helper.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/sensors/contact_force_sensor.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/__init__.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/gs_ros_bridge.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+copying /home/vishvesh/ros2_ws/src/build/gs_ros/build/lib/gs_ros/gs_ros_utils.py -> /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_services.py to gs_ros_services.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_sensors.py to gs_ros_sensors.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_robot_control.py to gs_ros_robot_control.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_sim.py to gs_ros_sim.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/grid_lidar_sensor.py to grid_lidar_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/camera_sensor.py to camera_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/lidar_sensor.py to lidar_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/imu_sensor.py to imu_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/sectional_lidar_sensor.py to sectional_lidar_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/base_sensor.py to base_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/laser_scan_sensor.py to laser_scan_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/contact_sensor.py to contact_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/sensor_helper.py to sensor_helper.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/sensors/contact_force_sensor.py to contact_force_sensor.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_bridge.py to gs_ros_bridge.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros/gs_ros_utils.py to gs_ros_utils.cpython-310.pyc
+running install_data
+copying resource/gs_ros -> /home/vishvesh/ros2_ws/src/install/gs_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/vishvesh/ros2_ws/src/install/gs_ros/share/gs_ros
+running install_egg_info
+Copying ../../build/gs_ros/gs_ros.egg-info to /home/vishvesh/ros2_ws/src/install/gs_ros/lib/python3.10/site-packages/gs_ros-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/vishvesh/ros2_ws/src/build/gs_ros/install.log'

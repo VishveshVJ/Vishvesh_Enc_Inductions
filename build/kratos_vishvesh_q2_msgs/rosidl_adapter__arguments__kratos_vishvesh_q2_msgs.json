@@ -1,0 +1,6 @@
+{
+  "package_name": "kratos_vishvesh_q2_msgs",
+  "non_idl_tuples": [
+    "/home/vishvesh/ros2_ws/src/kratos_vishvesh_q2_msgs:msg/RoverStatus.msg"
+  ]
+}

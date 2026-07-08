@@ -1,0 +1,19 @@
+[0.589s] Invoking command in '/home/vishvesh/ros2_ws/build/Practice': PYTHONPATH=/home/vishvesh/ros2_ws/build/Practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/Practice/build --no-deps symlink_data
+[0.756s] running develop
+[0.850s] running egg_info
+[0.860s] writing Practice.egg-info/PKG-INFO
+[0.861s] writing dependency_links to Practice.egg-info/dependency_links.txt
+[0.861s] writing entry points to Practice.egg-info/entry_points.txt
+[0.861s] writing requirements to Practice.egg-info/requires.txt
+[0.862s] writing top-level names to Practice.egg-info/top_level.txt
+[0.877s] reading manifest file 'Practice.egg-info/SOURCES.txt'
+[0.877s] writing manifest file 'Practice.egg-info/SOURCES.txt'
+[0.885s] running build_ext
+[0.885s] Creating /home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages/Practice.egg-link (link to .)
+[0.885s] Installing draw_circle_node script to /home/vishvesh/ros2_ws/install/Practice/lib/Practice
+[0.885s] Installing name_to_run script to /home/vishvesh/ros2_ws/install/Practice/lib/Practice
+[0.885s] Installing pose_node script to /home/vishvesh/ros2_ws/install/Practice/lib/Practice
+[0.886s] 
+[0.886s] Installed /home/vishvesh/ros2_ws/build/Practice
+[0.886s] running symlink_data
+[0.902s] Invoked command in '/home/vishvesh/ros2_ws/build/Practice' returned '0': PYTHONPATH=/home/vishvesh/ros2_ws/build/Practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vishvesh/ros2_ws/install/Practice/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vishvesh/ros2_ws/build/Practice/build --no-deps symlink_data

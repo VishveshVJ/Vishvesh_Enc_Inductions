@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_py/gs_ros_interfaces/msg/_robot_options.py

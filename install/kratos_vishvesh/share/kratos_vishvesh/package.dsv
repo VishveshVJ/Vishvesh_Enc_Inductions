@@ -1,0 +1,8 @@
+source;share/kratos_vishvesh/hook/cmake_prefix_path.ps1
+source;share/kratos_vishvesh/hook/cmake_prefix_path.dsv
+source;share/kratos_vishvesh/hook/cmake_prefix_path.sh
+source;share/kratos_vishvesh/local_setup.bash
+source;share/kratos_vishvesh/local_setup.dsv
+source;share/kratos_vishvesh/local_setup.ps1
+source;share/kratos_vishvesh/local_setup.sh
+source;share/kratos_vishvesh/local_setup.zsh

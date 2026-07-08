@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/ResetSimulation.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/Result.idl"
+
+module simulation_interfaces {
+  module srv {
+    module ResetSimulation_Request_Constants {
+      @verbatim (language="comment", text=
+        "same as SCOPE_ALL.")
+      const uint8 SCOPE_DEFAULT = 0;
+      @verbatim (language="comment", text=
+        "Reset simulation time to start.")
+      const uint8 SCOPE_TIME = 1;
+      @verbatim (language="comment", text=
+        "Reset state such as poses and velocities. This may include state randomization" "\n"        "if such feature is available and turned on.")
+      const uint8 SCOPE_STATE = 2;
+      @verbatim (language="comment", text=
+        "De-spawns all spawned entities.")
+      const uint8 SCOPE_SPAWNED = 4;
+      @verbatim (language="comment", text=
+        "Fully resets simulation to the start, as if it was closed and launched again.")
+      const uint8 SCOPE_ALL = 255;
+    };
+    @verbatim (language="comment", text=
+      "Reset the simulation to the start, including the entire scene and the simulation time." "\n"
+      "Objects that were dynamically spawned are de-spawned." "\n"
+      "Support for this interface is indicated through the SIMULATION_RESET value in GetSimulationFeatures," "\n"
+      "and supported scopes are further detailed by SIMULATION_RESET_TIME, SIMULATION_RESET_STATE, and SIMULATION_RESET_SPAWNED.")
+    struct ResetSimulation_Request {
+      @verbatim (language="comment", text=
+        "Scope of the reset. Note that simulators might only support some scopes." "\n"
+        "This is a bit field which may be checked for each scope e.g. scope & SCOPE_TIME.")
+      uint8 scope;
+    };
+    struct ResetSimulation_Response {
+      simulation_interfaces::msg::Result result;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/src/build/kratos_vishvesh_q2_msgs/rosidl_generator_c/kratos_vishvesh_q2_msgs/msg/detail/rover_status__type_support.h

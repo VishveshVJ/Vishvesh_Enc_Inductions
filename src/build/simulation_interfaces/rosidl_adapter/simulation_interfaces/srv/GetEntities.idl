@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from simulation_interfaces/srv/GetEntities.srv
+// generated code does not contain a copyright notice
+
+#include "simulation_interfaces/msg/EntityFilters.idl"
+#include "simulation_interfaces/msg/Result.idl"
+
+module simulation_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Get objects in the scene which can be interacted with, e.g. with using SetEntityState." "\n"
+      "You can get further information about entities through GetEntityInfo and GetEntityState services." "\n"
+      "There is also a GetEntitiesStates service if you would like to get state for each entity.")
+    struct GetEntities_Request {
+      @verbatim (language="comment", text=
+        "Optional filters for the query, including name, category, tags," "\n"
+        "and overlap filters.")
+      simulation_interfaces::msg::EntityFilters filters;
+    };
+    struct GetEntities_Response {
+      simulation_interfaces::msg::Result result;
+
+      @verbatim (language="comment", text=
+        "Unique names of all entities matching the filters.")
+      sequence<string> entities;
+    };
+  };
+};

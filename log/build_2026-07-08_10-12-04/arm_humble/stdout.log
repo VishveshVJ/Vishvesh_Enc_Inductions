@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/launch/display.launch.py
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/urdf/arm.urdf
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/urdf/my_custom_arm.urdf.xacro
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/rviz/view_arm.rviz
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/lib/arm_humble/ik_controller.py
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/ament_index/resource_index/package_run_dependencies/arm_humble
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/ament_index/resource_index/parent_prefix_path/arm_humble
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/environment/path.sh
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/environment/path.dsv
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/local_setup.bash
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/local_setup.sh
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/local_setup.zsh
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/local_setup.dsv
+-- Symlinking: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/package.dsv
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/ament_index/resource_index/packages/arm_humble
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/cmake/arm_humbleConfig.cmake
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/cmake/arm_humbleConfig-version.cmake
+-- Up-to-date symlink: /home/vishvesh/ros2_ws/install/arm_humble/share/arm_humble/package.xml

@@ -1,0 +1,77 @@
+/home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+Removing /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs-simulation-interfaces.egg-link (link to .)
+/home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info/PKG-INFO
+writing dependency_links to ../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info/dependency_links.txt
+writing requirements to ../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info/requires.txt
+writing top-level names to ../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info/top_level.txt
+reading manifest file '../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info/SOURCES.txt'
+writing manifest file '../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces
+copying gs_simulation_interfaces/simulation_interface.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces
+copying gs_simulation_interfaces/__init__.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces
+copying gs_simulation_interfaces/scene_manager.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces
+creating /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers
+copying gs_simulation_interfaces/handlers/world_management.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers
+copying gs_simulation_interfaces/handlers/__init__.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers
+creating /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/entity_state.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/entity_helpers.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/entity_lifecycle.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/entity_metadata.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/entity_options.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/sensor_options.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+copying gs_simulation_interfaces/handlers/entity/__init__.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity
+creating /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator
+copying gs_simulation_interfaces/handlers/simulator/simulation_control.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator
+copying gs_simulation_interfaces/handlers/simulator/simulator_features.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator
+copying gs_simulation_interfaces/handlers/simulator/__init__.py -> /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator
+running install
+running install_lib
+creating /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces
+creating /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/world_management.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers
+creating /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/entity_state.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/entity_helpers.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/entity_lifecycle.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/entity_metadata.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/entity_options.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/sensor_options.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/entity/__init__.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity
+creating /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator/simulation_control.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator/simulator_features.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/simulator/__init__.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/handlers/__init__.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/simulation_interface.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/__init__.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces
+copying /home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/build/lib/gs_simulation_interfaces/scene_manager.py -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/world_management.py to world_management.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/entity_state.py to entity_state.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/entity_helpers.py to entity_helpers.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/entity_lifecycle.py to entity_lifecycle.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/entity_metadata.py to entity_metadata.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/entity_options.py to entity_options.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/sensor_options.py to sensor_options.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/entity/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator/simulation_control.py to simulation_control.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator/simulator_features.py to simulator_features.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/simulator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/handlers/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/simulation_interface.py to simulation_interface.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces/scene_manager.py to scene_manager.cpython-310.pyc
+running install_data
+copying resource/gs_simulation_interfaces -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/share/ament_index/resource_index/packages
+copying package.xml -> /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/share/gs_simulation_interfaces
+running install_egg_info
+Copying ../../build/gs_simulation_interfaces/gs_simulation_interfaces.egg-info to /home/vishvesh/ros2_ws/src/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs_simulation_interfaces-1.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/vishvesh/ros2_ws/src/build/gs_simulation_interfaces/install.log'

@@ -1,0 +1,7 @@
+# Create a weld constraint between two entities
+string entity_one
+string link_one
+string entity_one_type
+string entity_two
+string link_two
+string entity_two_type

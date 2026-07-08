@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simulation_interfaces/msg/Resource.msg
+// generated code does not contain a copyright notice
+
+
+module simulation_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message is used to specify a resource, either by a URI or by its string content.")
+    struct Resource {
+      @verbatim (language="comment", text=
+        "If uri field is empty, resource_string must not be empty.")
+      string uri;
+
+      @verbatim (language="comment", text=
+        "An entity definition file passed as a string, only used if uri is empty." "\n"
+        "If uri field is not empty, resource_string field will be ignored." "\n"
+        "Simulators may support spawning from a file generated on the fly (e.g. XACRO).")
+      string resource_string;
+    };
+  };
+};

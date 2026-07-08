@@ -1,0 +1,4 @@
+source;share/kratos_vishvesh/local_setup.bash
+source;share/kratos_vishvesh/local_setup.dsv
+source;share/kratos_vishvesh/local_setup.sh
+source;share/kratos_vishvesh/local_setup.zsh

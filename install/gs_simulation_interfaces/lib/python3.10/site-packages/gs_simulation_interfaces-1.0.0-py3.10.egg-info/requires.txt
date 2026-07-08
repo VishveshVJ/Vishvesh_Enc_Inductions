@@ -1,0 +1,3 @@
+setuptools
+gs_ros_interfaces
+simulation_interfaces

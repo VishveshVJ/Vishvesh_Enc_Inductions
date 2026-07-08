@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: gs_simulation_interfaces
+Version: 1.0.0
+Summary: Open Simulation Interfaces (OSI) implementation for Genesis simulator
+Maintainer: Vybhav Ilindra
+Maintainer-email: ibr.vybhav@gmail.com
+License: MIT
+Requires-Dist: setuptools
+Requires-Dist: gs_ros_interfaces
+Requires-Dist: simulation_interfaces
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,98 @@
+[0.343s] Invoking command in '/home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos -- -j16 -l16
+[0.391s] [ 14%] Built target example_ackermann_drive
+[0.393s] [ 28%] Built target example_gripper
+[0.395s] [ 42%] Built target example_tricycle_drive
+[0.395s] [ 57%] Built target example_diff_drive
+[0.397s] [ 71%] Built target example_velocity
+[0.399s] [ 85%] Built target example_effort
+[0.399s] [100%] Built target example_position
+[0.515s] Invoked command in '/home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --build /home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos -- -j16 -l16
+[0.516s] Invoking command in '/home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos
+[0.523s] -- Install configuration: ""
+[0.526s] -- Execute custom install script
+[0.526s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[0.526s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_effort.launch.py
+[0.526s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_position.launch.py
+[0.526s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/cart_example_velocity.launch.py
+[0.527s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/diff_drive_example.launch.py
+[0.527s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[0.527s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[0.527s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[0.527s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/panda_example_position.launch.py
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/pendulum_example_position.launch.py
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/ackermann_drive_controller.yaml
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_effort.yaml
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_position.yaml
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/cart_controller_velocity.yaml
+[0.529s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/diff_drive_controller.yaml
+[0.530s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/gripper_controller.yaml
+[0.530s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/mecanum_drive_controller.yaml
+[0.530s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/panda_controller_position.yaml
+[0.530s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//config/tricycle_drive_controller.yaml
+[0.531s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/finger.obj
+[0.531s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/hand.obj
+[0.531s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link0.obj
+[0.531s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link1.obj
+[0.531s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link2.obj
+[0.532s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link3.obj
+[0.532s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link4.obj
+[0.532s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link5.obj
+[0.532s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link6.mtl
+[0.533s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link6.obj
+[0.533s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/collision/link7.obj
+[0.533s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/base_link.dae
+[0.533s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/base_link_uv.png
+[0.534s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/colors.png
+[0.534s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/finger.mtl
+[0.534s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/finger.obj
+[0.535s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/hand.mtl
+[0.535s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/hand.obj
+[0.535s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link1.mtl
+[0.535s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link1.obj
+[0.537s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link2.mtl
+[0.537s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link2.obj
+[0.538s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link3.mtl
+[0.538s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link3.obj
+[0.538s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link4.mtl
+[0.538s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link4.obj
+[0.539s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link5.mtl
+[0.539s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link5.obj
+[0.539s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link6.mtl
+[0.540s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/link6.obj
+[0.540s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/meshes/visual/visualShapeBench.json_0.json
+[0.541s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/panda_bullet/panda.urdf
+[0.541s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[0.542s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[0.542s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[0.543s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[0.544s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[0.546s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[0.549s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[0.549s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[0.549s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[0.549s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[0.549s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_position
+[0.550s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_velocity
+[0.550s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_effort
+[0.550s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_diff_drive
+[0.550s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_tricycle_drive
+[0.551s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_ackermann_drive
+[0.551s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/lib/gs_ros2_control_demos/example_gripper
+[0.551s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gs_ros2_control_demos
+[0.551s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gs_ros2_control_demos
+[0.552s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/ament_prefix_path.sh
+[0.552s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/ament_prefix_path.dsv
+[0.552s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/path.sh
+[0.552s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/environment/path.dsv
+[0.553s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.bash
+[0.553s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.sh
+[0.553s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.zsh
+[0.554s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/local_setup.dsv
+[0.554s] -- Symlinking: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.dsv
+[0.563s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/ament_index/resource_index/packages/gs_ros2_control_demos
+[0.564s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/cmake/gs_ros2_control_demosConfig.cmake
+[0.564s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/cmake/gs_ros2_control_demosConfig-version.cmake
+[0.564s] -- Up-to-date symlink: /home/vishvesh/ros2_ws/src/install/gs_ros2_control_demos/share/gs_ros2_control_demos/package.xml
+[0.633s] Invoked command in '/home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vishvesh/ros2_ws/install/turtle_controller:/home/vishvesh/ros2_ws/install/gs_simulation_interfaces:/home/vishvesh/ros2_ws/install/simulation_interfaces:/home/vishvesh/ros2_ws/install/gs_ros:/home/vishvesh/ros2_ws/install/Practice:/opt/ros/humble /usr/bin/cmake --install /home/vishvesh/ros2_ws/src/build/gs_ros2_control_demos

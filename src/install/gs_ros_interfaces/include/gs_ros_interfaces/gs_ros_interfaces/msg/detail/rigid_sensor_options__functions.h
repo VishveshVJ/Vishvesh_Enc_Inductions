@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_generator_c/gs_ros_interfaces/msg/detail/rigid_sensor_options__functions.h

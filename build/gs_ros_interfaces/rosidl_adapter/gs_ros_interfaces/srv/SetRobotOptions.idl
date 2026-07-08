@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gs_ros_interfaces/srv/SetRobotOptions.srv
+// generated code does not contain a copyright notice
+
+#include "gs_ros_interfaces/msg/RobotOptions.idl"
+#include "simulation_interfaces/msg/Result.idl"
+
+module gs_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Configure ROS interface options for a robot")
+    struct SetRobotOptions_Request {
+      string entity;
+
+      gs_ros_interfaces::msg::RobotOptions options;
+    };
+    struct SetRobotOptions_Response {
+      simulation_interfaces::msg::Result result;
+    };
+  };
+};

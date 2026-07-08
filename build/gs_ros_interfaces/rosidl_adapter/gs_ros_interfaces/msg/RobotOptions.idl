@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gs_ros_interfaces/msg/RobotOptions.msg
+// generated code does not contain a copyright notice
+
+#include "gs_ros_interfaces/msg/JointProperty.idl"
+
+module gs_ros_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Configuration for robot-specific ROS interfacing")
+    struct RobotOptions {
+      string joint_states_topic;
+
+      float joint_states_topic_frequency;
+
+      string joint_commands_topic;
+
+      float joint_commands_topic_frequency;
+
+      string joints_control_topic;
+
+      float joints_control_topic_frequency;
+
+      sequence<gs_ros_interfaces::msg::JointProperty> joint_properties;
+    };
+  };
+};

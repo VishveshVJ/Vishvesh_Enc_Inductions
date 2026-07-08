@@ -1,0 +1,7 @@
+# Configure sensors for an entity
+string entity
+CameraOptions[] cameras
+LidarOptions[] lidars
+ImuOptions[] imus
+ContactOptions[] contacts
+ContactForceOptions[] contact_forces

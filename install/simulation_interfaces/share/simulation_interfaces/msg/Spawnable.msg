@@ -1,0 +1,1 @@
+/home/vishvesh/ros2_ws/src/genesis_ros/simulation_interfaces/msg/Spawnable.msg

@@ -1,0 +1,20 @@
+/home/vishvesh/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating gs_simulation_interfaces.egg-info
+writing gs_simulation_interfaces.egg-info/PKG-INFO
+writing dependency_links to gs_simulation_interfaces.egg-info/dependency_links.txt
+writing requirements to gs_simulation_interfaces.egg-info/requires.txt
+writing top-level names to gs_simulation_interfaces.egg-info/top_level.txt
+writing manifest file 'gs_simulation_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'gs_simulation_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'gs_simulation_interfaces.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vishvesh/ros2_ws/install/gs_simulation_interfaces/lib/python3.10/site-packages/gs-simulation-interfaces.egg-link (link to .)
+
+Installed /home/vishvesh/ros2_ws/build/gs_simulation_interfaces
+running symlink_data
+creating /home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/ament_index/resource_index/packages
+symbolically linking /home/vishvesh/ros2_ws/build/gs_simulation_interfaces/resource/gs_simulation_interfaces -> /home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/ament_index/resource_index/packages
+symbolically linking /home/vishvesh/ros2_ws/build/gs_simulation_interfaces/package.xml -> /home/vishvesh/ros2_ws/install/gs_simulation_interfaces/share/gs_simulation_interfaces

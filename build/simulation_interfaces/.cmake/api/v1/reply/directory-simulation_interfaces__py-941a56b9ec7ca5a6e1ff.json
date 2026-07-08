@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "simulation_interfaces__py",
+		"source" : "/home/vishvesh/ros2_ws/build/simulation_interfaces/simulation_interfaces__py"
+	}
+}

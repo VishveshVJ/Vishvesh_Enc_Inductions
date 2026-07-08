@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from gs_ros_interfaces/srv/JoinEntities.srv
+// generated code does not contain a copyright notice
+
+
+module gs_ros_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Create a weld constraint between two entities")
+    struct JoinEntities_Request {
+      string entity_one;
+
+      string link_one;
+
+      string entity_one_type;
+
+      string entity_two;
+
+      string link_two;
+
+      string entity_two_type;
+    };
+    struct JoinEntities_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};
