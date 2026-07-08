@@ -28,6 +28,12 @@ class ik_controller (Node):
 
 
     def inputs_and_main (self ):
+            
+            """
+            This function is required to loop the Input lines over and over. 
+            It is also treated as a main function instead of putting everything
+            is __init__ 
+            """
             #Text and getting inputs
             self.get_logger().info("The current End Effector Position: " + "\n" + "x = " + str(self.x)+ " y = " + str(self.y)+ " z = " + str(self.z))
             self.axis_choosen = input("Enter the axis to move : ")
@@ -50,9 +56,6 @@ class ik_controller (Node):
 
             
             if Check  : 
-                self.get_logger().info(str(self.x))
-                self.get_logger().info(str(self.y))
-                self.get_logger().info(str(self.z))
                 self.calculate_joint_angles()
 
                 #Final Publishing
@@ -72,16 +75,22 @@ class ik_controller (Node):
                     self.y -= self.value_added
                 if(self.axis_choosen == "z"):
                     self.z -= self.value_added
-                self.get_logger().info("The Entered Coordinates are Wrong Please Enter Again : ")
+                self.get_logger().info("The Entered Coordinates are not Valid")
                 self.inputs_and_main()
 
 
     def calculate_joint_angles (self) :
             
+            """
+            This Function is used to Calculate the reverse kinematics of the given
+            coordinates entered by the user. It also checks if the calculated angles
+            are in the range of the rovers joints therefore doing the work of checkig
+            valid inputs
+            """
+            
             #yaw angle
             theta = math.atan2(self.y , self.x)
             self.yaw_angle =  theta
-            self.get_logger().info(str(self.yaw_angle))
 
             #elbow Angle
             new_axis_X = math.sqrt( pow(self.x , 2) + pow(self.y , 2))
@@ -91,7 +100,6 @@ class ik_controller (Node):
             if((cos_q2 <= 1) and (cos_q2 >=-1) ):
                 q2 = math.acos(cos_q2)
                 self.elbow_joint_angle = q2
-                self.get_logger().info(str(self.elbow_joint_angle))
             
             else : 
                 q2 = 100
@@ -104,7 +112,6 @@ class ik_controller (Node):
             #shoulder_angle
             q1 = math.atan2(new_axis_X, new_axis_Z) - math.atan2(0.42 * math.sin(q2), 0.35 + 0.42 * math.cos(q2))
             self.shoulder_joint_angle = q1
-            self.get_logger().info(str(self.shoulder_joint_angle))
 
 
             if(    (self.shoulder_joint_angle   < math.pi )  and (self.shoulder_joint_angle > -math.pi) ) :
