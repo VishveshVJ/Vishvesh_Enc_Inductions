@@ -1,0 +1,27 @@
+World
+
+joint                            //
+
+base_plat-link 
+
+bas-yaw-joint                   // 
+
+base_yaw_column_link 
+
+shoulder-joint                  //
+
+upper_arm_link
+
+elbow-joint                     //
+
+forearm-link
+
+wrist-pitch join                //
+
+wrist_bracket_link 
+
+wrist-roll-joint                //
+
+wrist-output-shaft-link
+
+
