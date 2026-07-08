@@ -13,6 +13,7 @@ Question 2 : This Questions Files are in kratos_vishvesh_q2 and the custom msg i
 
 IKFK : 
 Question 1 : Uploaded 
+
 Question 2: File : kratos_inductions
   1. Understaing the Kinematics of the acutall robot by sending message with set angles.
   2. Studying the urdf file to knowing the dimensions
