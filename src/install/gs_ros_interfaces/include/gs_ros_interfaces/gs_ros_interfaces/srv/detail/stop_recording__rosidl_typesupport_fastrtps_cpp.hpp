@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_typesupport_fastrtps_cpp/gs_ros_interfaces/srv/detail/stop_recording__rosidl_typesupport_fastrtps_cpp.hpp

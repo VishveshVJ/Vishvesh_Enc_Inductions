@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/simulation_interfaces/rosidl_typesupport_introspection_c/simulation_interfaces/srv/detail/get_simulator_features__rosidl_typesupport_introspection_c.h

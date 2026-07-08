@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_py/gs_ros_interfaces/msg/_depth_camera_ray_caster_pattern.py

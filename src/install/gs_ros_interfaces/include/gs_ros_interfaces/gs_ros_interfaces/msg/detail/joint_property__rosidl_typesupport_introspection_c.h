@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_typesupport_introspection_c/gs_ros_interfaces/msg/detail/joint_property__rosidl_typesupport_introspection_c.h

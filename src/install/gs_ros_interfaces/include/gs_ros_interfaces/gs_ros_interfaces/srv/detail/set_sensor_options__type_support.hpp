@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_generator_cpp/gs_ros_interfaces/srv/detail/set_sensor_options__type_support.hpp

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/rosidl_typesupport_introspection_c/kratos_vishvesh_q2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/simulation_interfaces/rosidl_cmake/srv/GetSimulationState_Response.msg

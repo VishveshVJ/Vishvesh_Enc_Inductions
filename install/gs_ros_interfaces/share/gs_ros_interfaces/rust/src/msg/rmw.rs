@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_rs/gs_ros_interfaces/rust/src/msg/rmw.rs

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/simulation_interfaces/rosidl_generator_py/simulation_interfaces/srv/_reset_simulation_s.c

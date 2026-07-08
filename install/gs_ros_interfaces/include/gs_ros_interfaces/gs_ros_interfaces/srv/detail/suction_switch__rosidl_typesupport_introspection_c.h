@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_typesupport_introspection_c/gs_ros_interfaces/srv/detail/suction_switch__rosidl_typesupport_introspection_c.h

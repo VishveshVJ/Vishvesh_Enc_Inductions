@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_cmake/srv/SetEntityPose_Request.msg

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros2_control_demos/ament_cmake_core/gs_ros2_control_demosConfig.cmake

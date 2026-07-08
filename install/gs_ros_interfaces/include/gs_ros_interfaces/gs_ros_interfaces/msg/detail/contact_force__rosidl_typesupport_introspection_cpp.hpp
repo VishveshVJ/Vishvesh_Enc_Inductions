@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_typesupport_introspection_cpp/gs_ros_interfaces/msg/detail/contact_force__rosidl_typesupport_introspection_cpp.hpp

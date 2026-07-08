@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/rosidl_generator_cpp/kratos_vishvesh_q2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

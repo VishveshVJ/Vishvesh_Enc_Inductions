@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/rosidl_generator_py/kratos_vishvesh_q2_msgs/msg/_rover_status.py

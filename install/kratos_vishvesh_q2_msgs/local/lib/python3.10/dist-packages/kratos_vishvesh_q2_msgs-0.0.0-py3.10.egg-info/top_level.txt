@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/ament_cmake_python/kratos_vishvesh_q2_msgs/kratos_vishvesh_q2_msgs.egg-info/top_level.txt

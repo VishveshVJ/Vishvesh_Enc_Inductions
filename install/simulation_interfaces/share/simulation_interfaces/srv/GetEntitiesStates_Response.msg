@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/simulation_interfaces/rosidl_cmake/srv/GetEntitiesStates_Response.msg

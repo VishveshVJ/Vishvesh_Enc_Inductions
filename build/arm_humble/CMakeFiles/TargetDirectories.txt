@@ -1,9 +1,0 @@
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/uninstall.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/arm_humble_uninstall.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/test.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/edit_cache.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/rebuild_cache.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/list_install_components.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/install.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/install/local.dir
-/home/vishvesh/ros2_ws/build/arm_humble/CMakeFiles/install/strip.dir

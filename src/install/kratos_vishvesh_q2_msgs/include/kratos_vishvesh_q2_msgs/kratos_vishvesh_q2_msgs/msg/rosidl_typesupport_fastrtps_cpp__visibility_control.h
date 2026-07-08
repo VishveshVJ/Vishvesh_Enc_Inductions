@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/kratos_vishvesh_q2_msgs/rosidl_typesupport_fastrtps_cpp/kratos_vishvesh_q2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

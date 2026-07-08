@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/kratos_vishvesh_q2_msgs/rosidl_typesupport_fastrtps_cpp/kratos_vishvesh_q2_msgs/msg/detail/rover_status__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_c/gs_ros_interfaces/msg/detail/imu_options__type_support.h

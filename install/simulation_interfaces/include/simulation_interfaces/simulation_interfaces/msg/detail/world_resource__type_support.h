@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/simulation_interfaces/rosidl_generator_c/simulation_interfaces/msg/detail/world_resource__type_support.h

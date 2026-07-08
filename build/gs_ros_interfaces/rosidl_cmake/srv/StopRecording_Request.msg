@@ -1,4 +1,0 @@
-# Stop and save a camera recording
-string name
-string file_name
-float64 fps

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_generator_py/gs_ros_interfaces/srv/_get_entity_pose_s.c

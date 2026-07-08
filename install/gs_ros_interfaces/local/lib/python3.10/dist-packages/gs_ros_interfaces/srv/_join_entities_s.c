@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/gs_ros_interfaces/rosidl_generator_py/gs_ros_interfaces/srv/_join_entities_s.c

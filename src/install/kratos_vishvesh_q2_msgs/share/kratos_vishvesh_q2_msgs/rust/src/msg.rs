@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/kratos_vishvesh_q2_msgs/rosidl_generator_rs/kratos_vishvesh_q2_msgs/rust/src/msg.rs

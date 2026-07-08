@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/simulation_interfaces/rosidl_generator_c/simulation_interfaces/srv/get_simulation_state.h

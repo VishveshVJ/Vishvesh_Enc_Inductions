@@ -1,8 +1,0 @@
-setup.py
-kratos_vishvesh_q2_msgs/__init__.py
-kratos_vishvesh_q2_msgs.egg-info/PKG-INFO
-kratos_vishvesh_q2_msgs.egg-info/SOURCES.txt
-kratos_vishvesh_q2_msgs.egg-info/dependency_links.txt
-kratos_vishvesh_q2_msgs.egg-info/top_level.txt
-kratos_vishvesh_q2_msgs/msg/__init__.py
-kratos_vishvesh_q2_msgs/msg/_rover_status.py

@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/kratos_vishvesh_q2_msgs/rosidl_generator_py/kratos_vishvesh_q2_msgs/_kratos_vishvesh_q2_msgs_s.ep.rosidl_typesupport_introspection_c.c

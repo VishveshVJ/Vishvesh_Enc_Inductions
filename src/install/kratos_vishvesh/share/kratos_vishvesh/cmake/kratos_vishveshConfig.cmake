@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/kratos_vishvesh/ament_cmake_core/kratos_vishveshConfig.cmake

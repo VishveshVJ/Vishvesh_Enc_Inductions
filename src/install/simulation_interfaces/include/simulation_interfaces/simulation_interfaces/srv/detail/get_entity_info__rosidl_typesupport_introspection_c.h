@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/simulation_interfaces/rosidl_typesupport_introspection_c/simulation_interfaces/srv/detail/get_entity_info__rosidl_typesupport_introspection_c.h

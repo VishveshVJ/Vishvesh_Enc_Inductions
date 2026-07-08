@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/src/build/gs_ros_interfaces/rosidl_typesupport_introspection_c/gs_ros_interfaces/srv/detail/get_robot_options__rosidl_typesupport_introspection_c.h

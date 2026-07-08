@@ -1,1 +1,0 @@
-/home/vishvesh/ros2_ws/build/simulation_interfaces/ament_cmake_python/simulation_interfaces/simulation_interfaces.egg-info/top_level.txt
