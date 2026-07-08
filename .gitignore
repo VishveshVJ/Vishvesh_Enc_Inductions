@@ -1,6 +1,10 @@
 build/
 install/
 log/
+.vscode/
+Practice/
+src/.vscode/
+src/Practice/
 
 *.pyc
 __pycache__/
