@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Problem1")(type "KiCad")(uri "/home/vishvesh/Desktop/Test/Test/Problem1.pretty")(options "")(descr ""))
+)

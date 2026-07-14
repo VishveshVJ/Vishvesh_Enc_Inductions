@@ -1,0 +1,61 @@
+Info: Total warnings: 0, errors: 23.
+Info: Processing symbol 'U1:Problem1:Problem1'.
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+
+
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Added U1 (footprint 'Problem1:Problem1').
+Changed REF** reference designator to U1.
+Changed U1 value from Problem1 to Problem1:Problem1.
+Updated U1 symbol association from  to /455590bb-27cf-4362-8ba2-fdd4a2614a13.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'I2c.kicad_sch'.
+Add net unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Connected U1 pin 3 to unconnected-(U1-RST-Pad3).
+Error: U1 pad 5 not found in Problem1:Problem1.
+Error: U1 pad 24 not found in Problem1:Problem1.
+Error: U1 pad 4 not found in Problem1:Problem1.
+Error: U1 pad 23 not found in Problem1:Problem1.
+Error: U1 pad 19 not found in Problem1:Problem1.
+Error: U1 pad 17 not found in Problem1:Problem1.
+Error: U1 pad 15 not found in Problem1:Problem1.
+Error: U1 pad 13 not found in Problem1:Problem1.
+Error: U1 pad 10 not found in Problem1:Problem1.
+Error: U1 pad 8 not found in Problem1:Problem1.
+Error: U1 pad 6 not found in Problem1:Problem1.
+Error: U1 pad 22 not found in Problem1:Problem1.
+Error: U1 pad 20 not found in Problem1:Problem1.
+Error: U1 pad 18 not found in Problem1:Problem1.
+Error: U1 pad 16 not found in Problem1:Problem1.
+Error: U1 pad 14 not found in Problem1:Problem1.
+Error: U1 pad 11 not found in Problem1:Problem1.
+Error: U1 pad 9 not found in Problem1:Problem1.
+Error: U1 pad 7 not found in Problem1:Problem1.
+Error: U1 pad 12 not found in Problem1:Problem1.
+Error: U1 pad 21 not found in Problem1:Problem1.
+Error: U1 pad 2 not found in Problem1:Problem1.
+Error: U1 pad 1 not found in Problem1:Problem1.
+
+
+Info: Total warnings: 0, errors: 23.
